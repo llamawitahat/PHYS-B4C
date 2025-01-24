@@ -1,8 +1,8 @@
-PWD /Users/jakekratt/Documents/PHYS-B4C
+PWD /Users/jakekratt/Documents/PHYS-B4C/Chapter 33
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jakekratt/Documents/PHYS-B4C/Chapter 33.tex
+INPUT /Users/jakekratt/Documents/PHYS-B4C/Chapter 33/Chapter 33.tex
 OUTPUT Chapter 33.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
