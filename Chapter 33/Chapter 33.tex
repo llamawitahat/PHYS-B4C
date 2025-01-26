@@ -1,9 +1,42 @@
-\documentclass{article}
-\title{Physics B4C: Chapter 33}
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{helvet}
+
+\renewcommand{\familydefault}{\sfdefault}
+\geometry{letterpaper, portrait, margin=0.75in}
+\title{Physics III: Chapter 33 Lecture Notes}
 \author{Jake Kratt}
+
 
 \begin{document}
 \maketitle
 
+\section*{Maxwell's Equations}
+Maxwell's Equations are a set of equations that govern electromagnetism.
+\subsection*{Gauss' Law}
+    \[\oint \vec{E}\cdot  d\vec{A} = \frac{q}{\epsilon_{0}}\]
+Gauss' Law states that
+
+\subsection*{Gauss' Law (for magnetism)}
+\[\oint \vec{B} \cdot d\vec{A}=0\]
+
+\section*{Other Important Equations}
+
+
+\section*{Practice Problem 1}
+Your eyes are the most sensitive to the green-yellow region of the visible light spectrum. If the wavelength of this color is 555nm, calculate the frequency of this light.
+\subsection*{Strategy}
+Before we get started on solving the problem, we should first define our variables. From the prompt, we can gather the following:
+\begin{itemize}
+    \item First, let's think about what this problem is asking us for. It is asking us to find the frequency of the light-wave using the wavelength. Shouldn't be too difficult.
+    \item One equation that we notice could be really useful in this situation is the equation \[v=f \lambda. \] We already have the wavelength \(\lambda = 555nm\), so this equation could be a good starting point.
+    \item Since light travels at the speed of, well, light, we can infer that \(v=c\). Looking back at the equation \(v=f \lambda \), we can rewrite it as \(c = f \lambda\). We conveniently have two of the three values in the equation. So, now we pretty much have everything we need to solve the problem, so let's do that
+\end{itemize}
+\subsection*{Solution}
+Now that we've examined the problem, we have a decent amount of information to actually solve it. I recommend rearranging your equations symbolically, so that's what we'll do here.
+\begin{itemize}
+    \item Using a little algebra magic, we can rearrange the equation from earlier to get us what we're looking for--the frequency \(f\), by dividing both sides by \(\lambda\), we get \[f = \frac{c}{\lambda}.\]
+    \item So, by plugging in our values, we get a final solution of \[f = \frac{3\times10^{8}}{555\times10^{-9}} = 5.41\times10^{14}Hz.\]
+\end{itemize}
 
 \end{document}
