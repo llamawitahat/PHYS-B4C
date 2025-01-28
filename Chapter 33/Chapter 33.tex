@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage{geometry}
 \usepackage{helvet}
+\usepackage{amsmath}
 
 \renewcommand{\familydefault}{\sfdefault}
 \geometry{letterpaper, portrait, margin=0.75in}
@@ -15,12 +16,29 @@
 Maxwell's Equations are a set of equations that govern electromagnetism.
 \subsection*{Gauss' Law}
     \[\oint \vec{E}\cdot  d\vec{A} = \frac{q}{\epsilon_{0}}\]
-Gauss' Law states that
+Gauss' Law relates electric flux (change of an electric field through a surface) to the charge on the surface over $\epsilon_{0}$ (vacuum permittivity).
 
 \subsection*{Gauss' Law (for magnetism)}
 \[\oint \vec{B} \cdot d\vec{A}=0\]
+Gauss' Law for magnetism states that the net magnetic flux through a closed surface is zero. You can think of this with the idea that earth has a north and south pole. A compass points towards the north pole, because that is a magnetic pole, and on the end is the south pole, which your compass points away from. Basically, one end is positive and another is negative, so your compass must repel from one of them. These positive and negative magnetic fluxes must be equal in magnitude so that the net magnetic flux is 0. Basically, a magnetic field doesn't end or begin anywhere.
+
+\subsection*{Faraday's Law}
+\[\oint \vec{E} \cdot d\vec{s} = - \frac{d\Phi_{B}}{dt}\]
+Also referred to as the law of induction, Faraday's Law equates the creation of an electric field to a change in magnetic flux. So if you moved an object with a magnetic field, inducing a magnetic flux in the process, an electric field is generated in the process.
+
+\subsection*{Ampere-Maxwell Law}
+\[\oint \vec{B} \cdot d\vec{s} = \mu_{0}I + \epsilon_{0}\mu_{0} \frac{d\Phi_{E}}{dt}\]
+The Ampere-Maxwell law relates the creation of a magnetic field with an electric current and a changing electric field. Basically, electricity and magnetism are intertwined, and one does not exist without the other.
 
 \section*{Other Important Equations}
+\begin{itemize}
+    \item \(B = B_{max}\cos{(kx-\omega t)}\)
+    \item \(E = E_{max}\cos{(kx-\omega t)}\)
+    \item Speed of light: \(c = \frac{1}{\sqrt{\mu_{0}\epsilon_{0}}} = 3.00\times 10^{8}m/s\)
+    \item Angular frequency of a wave: \(\omega = 2\pi f = \frac{2\pi}{t}\)
+    \item Velocity of a wave: \(v = \lambda f = \frac{\omega}{k}\)
+    \item Ratio of the magnitude of an E-field to that of a B-field will always equal the speed of light: \( \frac{E_{max}}{B_{max}} =\frac{E}{B} = c\)
+\end{itemize}
 
 
 \section*{Practice Problem 1}
@@ -36,7 +54,45 @@ Before we get started on solving the problem, we should first define our variabl
 Now that we've examined the problem, we have a decent amount of information to actually solve it. I recommend rearranging your equations symbolically, so that's what we'll do here.
 \begin{itemize}
     \item Using a little algebra magic, we can rearrange the equation from earlier to get us what we're looking for--the frequency \(f\), by dividing both sides by \(\lambda\), we get \[f = \frac{c}{\lambda}.\]
-    \item So, by plugging in our values, we get a final solution of \[f = \frac{3\times10^{8}}{555\times10^{-9}} = 5.41\times10^{14}Hz.\]
+    \item So, by plugging in our values, we get a final solution of \[f = \frac{3\times10^{8}m/s}{555\times10^{-9}m} = 5.41\times10^{14}Hz.\]
 \end{itemize}
 
+\section*{Practice Problem 2}
+An electromagnetic wave has a maximum electric field strength of 1158-V/m. Calculate the maximum magnetic field strength in $\mu T$.
+
+\subsection*{Strategy}
+Recall the equation \(c = \frac{E}{B}\). Since electromagnetic waves travel at the speed of light, we already have two of the three variables, so this is very easily solvable.
+
+\subsection*{Solution}
+By rearranging the above equation, we end up with \[B = \frac{E}{c}.\] By plugging in our values, we get \[B = \frac{1158V/m}{3.00 \times 10^{8}m/s} = 0.00000386T = 3.86\mu T.\]
+
+\section*{Practice Problem 3}
+An electromagnetic wave is the x direction. The wavelength is measured to be 41.3m and the amplitude of the electric field is 25-V/m. Write the equation for the magnetic field in unit vector notation, where the electric field has its max value as the -y direction.
+
+\subsection*{Strategy}
+First, we should start be writing down our values. We have the following from examining the problem.
+\begin{align*}
+    E_{max} = 25V/m \\
+    \lambda = 41.3m
+\end{align*}
+Now, with these values, let's see what tools we have to work with that will get us a magnetic field value. We could consider these equations:
+\begin{itemize}
+    \item \(B = B_{max}\cos{(kx-\omega t)}\) as the general form of our final equation.
+    \item \(c = \frac{E}{B} = \frac{E_{max}}{B_{max}}\) to find the value of $B_{max}$.
+    \item \(v = c = \lambda f\) to find the linear frequency.
+    \item We can also use the second half of this equation, \(\lambda f = \frac{\omega}{k}\) to find $k$.
+    \item \(\omega = 2\pi f\) to find the angular frequency.
+    \item Lastly, by using the right-hand rule, we can deduce that the magnetic field will be in the -k direction.
+\end{itemize}
+
+\subsection*{Solution}
+Now that we've come up with some ideas, we can kind of connect the dots here. Basically, we can rearrange the equations to get us the values that we need, and remember to \textbf{ALWAYS SOLVE SYMBOLICALLY BEFORE PLUGGING IN YOUR NUMBERS!} You never know where you could accidentally punch the wrong value into your calculator, causing a whole mess of numbers in the process. Anyway, tangent aside, let's get into it.
+\begin{itemize}
+    \item We can rearrange \(c = \frac{E}{B}\) to get \(B = \frac{E}{c}\).
+    \item By plugging in our values here, we get: \[B = \frac{25V/m}{3.00\times10^{8}m/s} = 8.33\times 10^{-8}T = 83.3nT\]
+    \item By rearranging the equation $c = \lambda f$ into $f = \frac{c}{\lambda}$, we can then plug in our values to find: \[f = \frac{3.00\times 10^{8}m/s}{41.3m} = 7.26MHz\]
+    \item Next up, let's find the angular frequency, which we don't even need to do anything to! So we can just plug 'n' chug here: \[\omega = 2\pi f = 2\pi \times 7.26MHz = 45.61MHz\]
+    \item Finally, let's find $k$ by using $c = \frac{\omega}{k}$. When rearranging the equation we get \(k = \frac{\omega}{c}\). Now, let's plug 'n' chug. \[k = \frac{45.6 \times 10^{6}\frac{1}{s}}{3.00 \times 10^{8}m/s} = 0.152m^{-1}\]
+    \item Now that we have all of our values, let's put them together into one equation to get \[B = 83.3nT \cos{(0.152x - 45.61MHz \cdot t)}(-\hat{k})\]
+\end{itemize}
 \end{document}
