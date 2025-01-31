@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738096641.70493 "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Notes.tex" "Notes.pdf" "Notes" 1738096642.19796 0
-  "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Notes.tex" 1738096641.50865 6269 1f3b7d308e966de5696629504eebf3a3 ""
+["pdflatex"] 1738273214.21666 "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Chapter 34.tex" "Chapter 34.pdf" "Chapter 34" 1738273214.72265 0
+  "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Chapter 34.tex" 1738273213.45243 10077 295690d03992d20bf54594cbe04c4465 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -53,19 +53,21 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty" 1586716065 1499 de0ad166b701b820e03588a29bb30798 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd" 1586716065 1679 51f99a09d5536398d3a0ad1d44df9625 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd" 1586716065 1181 ec0c641cd2e0fb69a449534a0279b5ca ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty" 1730496337 14552 27664839421e418b87f56fa4c6f66b1a ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty" 1717359999 7243 e5dac1240636811edb77568b81818372 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737755623 5466570 e8651e7fa7bb054fee9a07d3f37faf28 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737755823 3352294 8c942a91a1b4f67216fcbb8e6d624b79 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Notes.aux" 1738096642.16086 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
-  "Notes.tex" 1738096641.50865 6269 1f3b7d308e966de5696629504eebf3a3 ""
+  "Chapter 34.aux" 1738273214.6841 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "Chapter 34.tex" 1738273213.45243 10077 295690d03992d20bf54594cbe04c4465 ""
   "images/34.3.png" 1738095294.47683 19771 13c57313b01176e12d39e702b08a7d03 ""
   "images/34.4.png" 1738095311.3171 94236 f27d4f3d01d9877c6cdca382ff7f6cc4 ""
   "images/34.5.png" 1738095978.31947 102758 24972702a904609d5b4d3b90483520ee ""
   "images/34.6.png" 1738096001.02256 16705 be49a9803317a0748c8cb4e042b8451a ""
   "images/roemer.png" 1738031850.52474 26398 ee8281fc962417eb0f5ec918ee20a67f ""
   (generated)
-  "Notes.aux"
-  "Notes.log"
-  "Notes.pdf"
+  "Chapter 34.aux"
+  "Chapter 34.log"
+  "Chapter 34.pdf"
   (rewritten before read)

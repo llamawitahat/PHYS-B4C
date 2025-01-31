@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  28 JAN 2025 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  30 JAN 2025 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Notes.tex"
-(/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Reading/Notes.tex
+**"/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex"
+(/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -127,30 +127,30 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 14.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 15.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box54
-) (./Notes.aux)
-\openout1 = `Notes.aux'.
+) (./Lecture 2.aux)
+\openout1 = `"Lecture 2.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -205,66 +205,46 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 21.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
+<images/doublerainbow.jpg, id=1, 258.2448pt x 171.5208pt>
+File: images/doublerainbow.jpg Graphic file (type jpg)
+<use images/doublerainbow.jpg>
+Package pdftex.def Info: images/doublerainbow.jpg  used on input line 30.
+(pdftex.def)             Requested size: 258.24416pt x 171.52037pt.
+
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<./images/roemer.png, id=8, 131.89275pt x 196.93575pt>
-File: ./images/roemer.png Graphic file (type png)
-<use ./images/roemer.png>
-Package pdftex.def Info: ./images/roemer.png  used on input line 40.
-(pdftex.def)             Requested size: 131.89241pt x 196.93524pt.
-<./images/34.3.png, id=9, 134.30174pt x 191.5155pt>
-File: ./images/34.3.png Graphic file (type png)
-<use ./images/34.3.png>
-Package pdftex.def Info: ./images/34.3.png  used on input line 54.
-(pdftex.def)             Requested size: 134.3014pt x 191.51501pt.
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/doublerainbow.jpg>]
+<images/circlerainbow.jpeg, id=12, 195.73125pt x 183.68625pt>
+File: images/circlerainbow.jpeg Graphic file (type jpg)
+<use images/circlerainbow.jpeg>
+Package pdftex.def Info: images/circlerainbow.jpeg  used on input line 38.
+(pdftex.def)             Requested size: 195.73076pt x 183.68578pt.
 
 
-[2 <./images/roemer.png>]
-<./images/34.4.png, id=17, 358.33875pt x 174.05025pt>
-File: ./images/34.4.png Graphic file (type png)
-<use ./images/34.4.png>
-Package pdftex.def Info: ./images/34.4.png  used on input line 60.
-(pdftex.def)             Requested size: 358.33788pt x 174.0498pt.
-<./images/34.5.png, id=18, 342.078pt x 195.73125pt>
-File: ./images/34.5.png Graphic file (type png)
-<use ./images/34.5.png>
-Package pdftex.def Info: ./images/34.5.png  used on input line 73.
-(pdftex.def)             Requested size: 342.07715pt x 195.73076pt.
-
-
-[3 <./images/34.3.png> <./images/34.4.png>]
-<./images/34.6.png, id=22, 109.6095pt x 139.11975pt>
-File: ./images/34.6.png Graphic file (type png)
-<use ./images/34.6.png>
-Package pdftex.def Info: ./images/34.6.png  used on input line 82.
-(pdftex.def)             Requested size: 109.6092pt x 139.1194pt.
-
-
-[4 <./images/34.5.png> <./images/34.6.png>] (./Notes.aux)
+[2 <./images/circlerainbow.jpeg>] (./Lecture 2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2736 strings out of 473207
- 41934 string characters out of 5716282
- 443106 words of memory out of 5000000
- 25971 multiletter control sequences out of 15000+600000
- 575022 words of font info for 68 fonts, out of 8000000 for 9000
+ 2706 strings out of 473207
+ 41500 string characters out of 5716282
+ 439154 words of memory out of 5000000
+ 25942 multiletter control sequences out of 15000+600000
+ 573555 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,820b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Notes.pdf (4 pages, 259781 bytes).
+ 57i,6n,65p,283b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on "Lecture 2.pdf" (2 pages, 477623 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
