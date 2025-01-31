@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738276425.8197 "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex" "Lecture 2.pdf" "Lecture 2" 1738276426.24426 0
-  "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex" 1738276425.63366 1963 1fc005f1b033134135ab077d048f7cb5 ""
+["pdflatex"] 1738307176.0786 "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex" "Lecture 2.pdf" "Lecture 2" 1738307176.53789 0
+  "/Users/jakekratt/Documents/PHYS-B4C/Chapter 34/Lecture/Lecture 2.tex" 1738307175.85428 2076 4a774c8b04f6af32a3f9665db43e12d5 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -58,8 +58,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737755623 5466570 e8651e7fa7bb054fee9a07d3f37faf28 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737755823 3352294 8c942a91a1b4f67216fcbb8e6d624b79 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Lecture 2.aux" 1738276426.204 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Lecture 2.tex" 1738276425.63366 1963 1fc005f1b033134135ab077d048f7cb5 ""
+  "Lecture 2.aux" 1738307176.49525 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "Lecture 2.tex" 1738307175.85428 2076 4a774c8b04f6af32a3f9665db43e12d5 ""
   "images/circlerainbow.jpeg" 1738274583.50108 6349 cd417785d5e4e3bf19c5c26c8d84f03d ""
   "images/doublerainbow.jpg" 1738274631.97522 398603 d4dbe22da8043ae0885b7c3f96a59aaf ""
   (generated)
