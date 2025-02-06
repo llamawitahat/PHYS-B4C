@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  30 JAN 2025 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  3 FEB 2025 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,15 +233,15 @@ L3 programming layer <2024-12-25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2706 strings out of 473207
- 41500 string characters out of 5716282
+ 2708 strings out of 473207
+ 41520 string characters out of 5716282
  439154 words of memory out of 5000000
- 25942 multiletter control sequences out of 15000+600000
- 573555 words of font info for 66 fonts, out of 8000000 for 9000
+ 25943 multiletter control sequences out of 15000+600000
+ 575188 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,283b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,336b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on "Lecture 2.pdf" (2 pages, 477815 bytes).
+Output written on "Lecture 2.pdf" (2 pages, 477399 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

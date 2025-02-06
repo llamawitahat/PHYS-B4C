@@ -111,6 +111,9 @@ INPUT ./images/circlerainbow.jpeg
 INPUT ./images/circlerainbow.jpeg
 INPUT ./images/circlerainbow.jpeg
 INPUT ./images/circlerainbow.jpeg
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT Lecture 2.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
