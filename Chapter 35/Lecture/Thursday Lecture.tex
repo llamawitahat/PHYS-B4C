@@ -1,0 +1,114 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{helvet}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{geometry}
+
+% \graphicspath{dir-list}
+\geometry{margin = 0.75in}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\title{Physics III Lecture: Thin Lenses}
+\author{Jake Kratt}
+\date{February 6, 2025}
+
+\begin{document}
+\maketitle
+\section*{Spherical Refracting Surfaces}
+Where your image is going to be located based on Snell's law for a spherically refracting surface
+\[\frac{n_{1}}{p}+\frac{n_{2}}{q}=\frac{n_{2}-n_{1}}{R}\]
+
+\[M = -\frac{n_{1}q}{n_{2}p}\]
+
+\begin{tabular}{ |c|c|c| }
+\hline
+Quantity & Positive When... & Negative When... \\
+\hline
+Object Location (p) & object is in front of surface & object is in back of surface \\
+& (real object) & (virtual object) \\
+\hline
+Image Location (q) & image is in the back of surface & image is in front of surface  \\
+& (real image) & (virtual object) \\
+\hline
+Image height $h'$ & image is upright. & image is inverted. \\
+\hline
+Radius (R) & center of curvature is  & center of curvature is  \\
+& in the back of surface (convex) & in front of the surface (concave) \\
+\hline
+    
+\end{tabular}
+
+\section*{Practice Problem 1}
+
+\subsection*{Important equations}
+\[\frac{n_{1}}{p}+\frac{n_{2}}{q}=\frac{n_{2}-n_{1}}{R}\]
+
+\subsection*{Actually solving it}
+
+\begin{align*}
+    & \frac{n_{2}}{q} = \frac{n_{2} - n_{1}}{R} - \frac{n_{1}}{p} \\
+    & q = \frac{n_{2}}{\frac{n_{2} - n_{1}}{R} - \frac{n_{1}}{p}} \\
+    & q = -8.35cm
+\end{align*}
+
+\section*{Converging Lenses}
+Fill in images
+
+\section*{Diverging Lenses}
+Fill in images
+
+\section*{Thin Lenses}
+
+\begin{itemize}
+    \item Thin lens equation \[\frac{1}{p} + \frac{1}{q} = \frac{1}{f}\]
+    \item Lens-Maker's equation \[\frac{1}{f} = (n-1)\Big(\frac{1}{R_{1}}-\frac{1}{R_{2}}\Big)\]
+    \item Magnification equation: \[M = \frac{h'}{h} = -\frac{q}{p}\]
+    \item Mathematically, mirrors and lenses are the same thing
+\end{itemize}
+
+\section*{Sign Conventions for Thin Lenses}
+
+\begin{tabular}{|c|c|c|}
+    \hline
+    Quantity & Positive When... & Negative When... \\
+    \hline
+    Image height ($h'$) & image is upright & center of curvature is in front of lens \\
+    \hline
+    $R_{1}$ and $R_{2}$ & center of curvature is in back of lens &  \\
+    \hline
+    
+\end{tabular}
+
+\section*{Practice Problem 2}
+\subsection*{The approach}
+\begin{itemize}
+    \item $R_{1}$ is positive
+    \item $R_{2}$ is negative
+\end{itemize}
+\begin{align*}
+    & \frac{1}{f} = (n-1)\Big(\frac{1}{R_{1}}-\frac{1}{R_{2}}\Big) \\
+    & f = \frac{1}{(n-1)\Big(\frac{1}{R_{1}}-\frac{1}{R_{2}}\Big)} \\
+    & f = \frac{1}{(1.50-1)\Big(\frac{1}{2.00cm}-\frac{1}{2.50cm}\Big)} = 20cm
+\end{align*}
+
+\section*{Practice Problem 3}
+
+\subsection*{The approach}
+\begin{align*}
+    & d = 180cm \\
+    & M = -5 \\
+    & \frac{1}{p} + \frac{1}{q} = \frac{1}{f} \\
+    & M = -\frac{q}{p} \implies q = -Mp = 5p \\
+    & p + q = 180cm \implies p + 5p = 180cm \\
+    & p = 30cm
+\end{align*}
+We have \(p\), but that hasn't answered the question. However, we do have everything we need to solve for \(f\).
+\begin{itemize}
+    \item Given: \[f = \frac{1}{(n-1)\Big(\frac{1}{R_{1}}-\frac{1}{R_{2}}\Big)}\]
+    \item We can find: \[f = +25cm\]
+\end{itemize}
+
+\section*{Practice Problem 4 *WILL BE ON EXAM*}
+\end{document}

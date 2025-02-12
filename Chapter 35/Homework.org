@@ -1,0 +1,198 @@
+#+title: Homework 2: Image Formation
+#+startup: latexpreview
+
+* Problem 2
+a) Find the location of the image for the following object distances. (If there is no image formed enter "NONE")
+
+   Useful values:
+
+   \(R = 19.8cm\)
+
+   \(f = R/2 = 9.9cm\)
+
+   Useful equations:
+
+   \[\frac{1}{p}+\frac{1}{q} = \frac{1}{f}\]
+
+   \[M = -\frac{q}{p} \]
+
+   Let's rearrange this bad boy for \(q\):
+
+   \[\frac{1}{q} = \frac{1}{f} - \frac{1}{p}\]
+
+   \[q = \Big(\frac{1}{f}-\frac{1}{p}\Big)^{-1}\]
+
+   If my logic is correct, then if \(q\) turns out to be negative, then it'll land BEHIND the mirror, and therefore also be virtual
+
+   | object distance (cm) | image distance (cm) | location |
+   |----------------------+---------------------+----------|
+   |                 39.8 |                13.2 | in front |
+   |                 19.8 |                19.8 | in front |
+   |                  9.9 |                NONE | no image |
+   |----------------------+---------------------+----------|
+
+
+b) For each case, state whether the image is real or virtual.
+
+   | object distance (cm) | real/virtual |
+   |----------------------+--------------|
+   |                 39.8 | real         |
+   |                 19.8 | real         |
+   |                  9.9 | no image     |
+   |----------------------+--------------|
+
+c) For each case, state whether the image is upright or inverted.
+
+   | object distance (cm) | real/virtual |
+   |----------------------+--------------|
+   |                 39.8 | upright      |
+   |                 19.8 | inverted     |
+   |                  9.9 | no image     |
+   |----------------------+--------------|
+
+d) Find the magnification in each case. (If there is no image formed enter "NONE")
+
+   | object distance (cm) | magnification |
+   |----------------------+---------------|
+   |                 39.8 |        -0.332 |
+   |                 19.8 |            -1 |
+   |                  9.9 |          NONE |
+   |----------------------+---------------|
+
+
+* Problem 3
+
+A convex spherical mirror has a radius of curvature \(R\) of magnitude \(36.0cm\).
+
+
+a) Determine the position of the virtual image and the magnification for object distances of 27.0cm. Indicate the location of the image with the sign of your answer.
+
+   + Important equations:
+
+     - \[\frac{1}{p} + \frac{1}{q} = \frac{1}{f} \]
+
+     - \[q = \Big(\frac{1}{f}-\frac{1}{p}\Big)^{-1}\]
+
+     - \[f = R/2\]
+
+       - \[f = -18cm\]
+
+     - \[M = - \frac{q}{p}\]
+
+   + REMINDER: f and R are NEGATIVE when the mirror is convex
+
+   + image location = -10.8cm
+
+   + magnification = 0.40
+
+b) Determine the position of the virtual image and the magnification for object distances of 47.0 cm. Indicate the location of the image with the sign of your answer.
+
+   + image location = -13.0cm
+
+   + magnification = 0.277
+
+
+* Problem 4
+
++ An object located 1.01 cm in front of a spherical merror forms an image located 10.8 cm behind the mirror.
+
+  a) What is the mirror's radius of curvature?
+
+     - Since q is behind the mirror, the value will be negative.
+
+     - We already have p and q, so we can just backsolve for R with: \[R = 2\Big(\frac{1}{p}+\frac{1}{q}\Big)^{-1}\]
+
+     - So we end up with: \[R = 2.23 cm\]
+
+
+  c) What is the magnification of the image
+
+     - Using \[M = -q/p\] we get \[M = 10.7\]
+
+
+* Problem 5
+
++ A certain Christmas tree ornament is a silver sphere having a diameter of 8.74 cm.
+
+  a) If the size of an image created by reflection in the ornament is one-fourth the reflected object's actual size, determine the object's location. (Find p)
+
+     + From this we can gather
+
+       - \(M = 0.25\)
+
+       - \(R = -8.74cm/2 = -4.37cm \implies f = -2.19cm\)
+
+       - \(M = -q/p \implies Mp = -q\), \(1/q = 1/f - 1/p \implies q = ((1/f) - (1/p))^{-1}\)
+
+       - Then we can just use some good ole substitution to get
+
+         \[\frac{1}{Mp} = -\frac{1}{f} + \frac{1}{p}\]
+
+         \[\frac{1}{Mp}-\frac{1}{p} = -\frac{1}{f}\]
+
+         \[\frac{1}{p}\Big(1 - \frac{1}{M}\Big) = -\frac{1}{f}\]
+
+         \[f\Big(\frac{1}{M}-1\Big) = p\]
+
+        (Distributed the negative value in the \(f\) to flip the signs in the parentheses
+
+        \[ \boxed{q = 6.57cm} \] in front of the sphere
+
+
+  b) Use a principle-ray diagram to determine whether the image is upright or inverted.
+     + the image is upright
+
+
+* Problem 6
+
++ One end of a long glass rod (n = 1.50) is formed into a convex surface with a radius of curvature of magnitude 6.60 cm. (R = 6.60 cm, f = 3.30 cm)
+
+  \[\frac{n_{1}}{p} + \frac{n_{2}}{q} = \frac{n_{2}-n_{1}}{R}\]
+
+  \[\frac{n_{2}}{q} = \frac{n_{2}-n_{1}}{R}-\frac{n_{1}}{p} \]
+
+  \[q = \frac{n_{2}}{\frac{n_{2}-n_{1}}{R}-\frac{n_{1}}{p}} \]
+
+  a) Find the image position corresponding to object distance of 21.5 cm from the convex end of the rod.
+
+     * \[ q = 51.3cm \]
+
+  b) Find the image position corresponding to object distance of 11.5 cm from the convex end of the rod.
+
+     * \[ q = -134cm \]
+
+  c) Find the image corresponding to object distance of 3.3 from the convex end of the rod
+
+     * \[ q = -6.60cm \]
+
+
+* Problem 7
+
++ An object's distance from a converging lens is 6.40 times the focal length
+
+  a) Determine the location of the image. Express the answer as a fraction of the focal length. (find q)
+
+     \(p = 6.40f\)
+
+     \[\frac{1}{f} = \frac{1}{p} + \frac{1}{q} \implies \frac{1}{f} = \frac{1}{6.40f} + \frac{1}{q} \]
+
+     \[\frac{1}{q} = \frac{1}{f}\bigg(1 - \frac{1}{6.40}\bigg) \implies  q = \frac{f}{1 - \frac{1}{6.40}} \]
+
+     \[ \boxed{q = \frac{32}{27} f} \]
+
+  b) Magnification of the lens: -0.185
+
+  c) Image is inverted
+
+  d) Image is real, not virtual
+
+
+* Problem 8
+
++ A contact lens is made of plastic with an index of refraction of 1.54. The lens has an outer radius of curvature of +2.05 cm and an inner radius of curvature of +2.52 cm. What is the focal length of the lens.
+
+  \[ \frac{1}{f} = (n-1)\bigg(\frac{1}{R_{1}} - \frac{1}{R_{2}}\bigg) \]
+
+  \[ f = \Bigg( (n-1) \bigg( \frac{1}{R_{1}} - \frac{1}{R_{2}} \bigg) \Bigg)^{-1} \]
+
+  \[ \boxed{f = 20.4cm} \]
