@@ -1,0 +1,47 @@
+#+title: 36.2 Analysis Model: Waves in Interference
+#+options: latexpreview
+
+* Superposition principle
+If two or more travelling waves are moving through a medium, the resultant value of the wave function at any point where the waves both exist is the algebraic sum of the values of the wave functions of the individual waves at that point.
+
+* Two-dimensional nature of Young's experiment
+- The viewing screen is located at a perpendicular distance \(L\) from the barrier containing the two slits \(S_{1}\) and $S_{2}$.
+- These slits are separated by a distance \(d\), and the source is monochromatic.
+- To reach any arbitrary point \(P\) in the upper half of the screen, the lower slit needs to travel further than the upper slit.
+- The distance traveled from the slit is the **path difference** $\delta$.
+- Labelling the rays as \(r_{1}\) and $r_{2}$, and assuming they're parallel, which is approximately true if $L \gg d$, then $\delta$ is given by:
+
+  \[\delta = r_2 - r_1 = d \sin{\theta} \]
+
+** How to determine if the two waves are in sync or not
++ The value of $\delta$ determines if the two waves are in phase when they arrive at point $P$.
+  - If $\delta$ is either zero or an integer multiple of the wavelength, the waves are in phase at point $P$, and therefore constructive interference.
+  - So the condition for bright fringes, or constructive interference is
+
+    \[d \sin{\theta_{bright}} = m \lambda \]    \[m = 0, \pm 1, \pm 2,...\]
+
+    + The number $m$ is called the **order number**.
+      - The order number is the same as the number of wavelengths that represents the path difference between the waves from the two slits. Basically, the reason why an integer value is the condition for constructive interference is because an integer value represents a wave period. So, assuming that the two rays start at the same point, they'll be in phase when they reach the point $P$
+
+  - When $\delta$ is an odd multiple of $\lambda/2$, the two waves arriving at point $P$ are 180° out of phase and cause destructive interference.
+    + Therefore, the condition for dark fringes, or destructive interference, at point $P$ is
+
+      \[d \sin{\theta_{dark}} = (m+ \frac{1}{2})\lambda \]    \[m = 0, \pm 1, \pm 2, ... \]
+
+  - These equations provide *angular* positions of the fringes. It's aso useful to obtain expressions for the *linear* positions measured along the screen from the point of exit to the end-point. So, using the good ole SOH CAH TOA, we can get
+
+    \[\tan{\theta} = \frac{y}{L} \]
+
+    - Using this result, the linear positions of bright and dark fringes are given by
+
+      \[y_{bright} = L \tan{\theta_{bright}} \]
+
+      \[y_{dark} = L \tan{\theta_{dark}} \]
+
+  - When the angles to the fringes are small, the positions of the fringes are linear near the center of the pattern. That can be verified by noting that for small angles, \(\tan{\theta} \approx \sin{\theta} \), so we end up with
+
+    \[y_{bright} = L \frac{m\lambda}{d}} \]
+
+    \[y_{dark} = L \frac{\left(m + \frac{1}{2}\right)\lambda}{d}} \]
+
+    - bear in mind that both of these equations only apply for small angles.

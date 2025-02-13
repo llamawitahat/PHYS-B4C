@@ -1,0 +1,13 @@
+#+title: 36.3 Intensity Distribution of the Double-Slit Interference Pattern
+
+When looking at the double-slit experiment, the change from dark to bright is not sharp. The change is gradual.
+
+Using an analysis of the electric fields of the light from the two slits, we can show that the intensity of light on the screen is given by
+
+\[ I = I_{max} \cos^2{\left(\frac{\pi d \sin{\theta}}{\lambda}\right) \]
+
+Alternatively, because $\sin{\theta} \approx y/L$ for small values of $\theta$, we can write the above equation in the form
+
+\[I = I_{max} \cos^{2}{\left(\frac{\pi d}{\lambda L} y \right)} \] (small angles)
+
+Constructive interference, which produces light intensity maxima, occurs when the quantity $\pi dy / \lambda L$ is an integral multiple of $\pi$, corresponding to $y = Lm\lambda / d$, where $m$ is the order number.

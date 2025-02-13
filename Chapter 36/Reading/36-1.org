@@ -1,0 +1,31 @@
+#+title: 36.1 Young's Double-Slit Experiment
+#+options: latexpreview
+
+* Background
++ Interference in light waves from two sources was first demonstrated by Thomas Young in 1801
++ Plane light waves arrive at a barrier that contains two slits \(S_{1}\) and \( S_{2} \).
++ The from \(S_{1}\) and \( S_{2} \) produces on a viewing screen a visible pattern of bright and dark parallel bonds called **fringes**.
++ When the light from $S_{1}$ and $S_{2}$ both arrive at a point on the screen such that constructive interference occurs at that location, a bright fringe appears.
+  - When the light from the two slits combines destructively at any location on the screen, a dark fringe results
+
+** Constructive vs Destructive Interference
++ Constructive: when the two waves combine (in phase), which results in a bright fringe
++ Destructive, the waves overlap each other to where the waves basically cancel out.
+
+* How the hell do you even observe it?
+- To observe interference of waves from two sources, the following conditions must be met:
+  + The sources must be **coherent** (contain a constant phase with each other)
+  + The sources should be *monochromatic* (a single wavelength)
+
+** Examples & Common Methods
++ Single-frequency waves emitted by two side-by-side loudspeakers driven by a single amplifier can interfere with each other because the two speakers are coherent.
+  - In other words, they respond to the amplifier in the same way at the same time
+
+*** Common method for producing two coherent light sources
+  + Use a monochromatic source to illuminate a barrier containing two small openings
+    - Usually in the shape of slits (like Young's experiment)
+  + The light emerging from the two slits is coherent because the monochromatic source produces the same light beam, which gets split into two separate waves by the slits.
+    - So using this method, we can observe interference effects.
+  + If the light only traveled in its original direction, the waves wouldn't overlap, and there would be no interference pattern.
+    - However, when travelling through these small openings, this is not the case. The light deviates from its original path. It basically spreads out into all sorts of directions.
+    - Diffraction: divergence of light from its initial line of travel.

@@ -20,9 +20,9 @@ a) Find the location of the image for the following object distances. (If there 
 
    \[\frac{1}{q} = \frac{1}{f} - \frac{1}{p}\]
 
-   \[q = \Big(\frac{1}{f}-\frac{1}{p}\Big)^{-1}\]
+   \[q = \big(\frac{1}{f}-\frac{1}{p}\big)^{-1}\]
 
-   If my logic is correct, then if \(q\) turns out to be negative, then it'll land BEHIND the mirror, and therefore also be virtual
+   if my logic is correct, then if \(q\) turns out to be negative, then it'll land BEHIND the mirror, and therefore also be virtual
 
    | object distance (cm) | image distance (cm) | location |
    |----------------------+---------------------+----------|
