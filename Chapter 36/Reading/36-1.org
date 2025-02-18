@@ -3,7 +3,7 @@
 
 * Background
 + Interference in light waves from two sources was first demonstrated by Thomas Young in 1801
-+ Plane light waves arrive at a barrier that contains two slits \(S_{1}\) and \( S_{2} \).
+
 + The from \(S_{1}\) and \( S_{2} \) produces on a viewing screen a visible pattern of bright and dark parallel bonds called **fringes**.
 + When the light from $S_{1}$ and $S_{2}$ both arrive at a point on the screen such that constructive interference occurs at that location, a bright fringe appears.
   - When the light from the two slits combines destructively at any location on the screen, a dark fringe results

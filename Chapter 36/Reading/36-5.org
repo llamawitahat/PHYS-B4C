@@ -1,0 +1,33 @@
+#+title: 36.5 Interference in Thin Films
+#+options: latexpreview
+
+* Fundamentals
+
+Consider a film of uniform thickness \(t\) and index of refraction \(n\). The wavelength of light \(\lambda_n\) in the film is
+
+\[\lambda_n = \frac{\lambda}{n} \]
+
+where \(\lambda\) is the wavelength of the light in free space and \(n\) is the index of refraction of the film material. Let's assume light rays traveling in air are nearly normal to the two surfaces of the film.
+
+* Conditions for interference
+
+** Constructive interference
+In general, the condition for /constructive/ interference in thin films is
+
+\[2t = (m + \frac{1}{2} t)\lambda_n \]        \[m = 0,1,2,... \]
+
++ \(t\) is the thickness of the film
+
+*** Two factors for the condition
+  1) the difference in path length for the two rays (the term \(m\lambda_n\)) and
+  2) the \(\text{180\textdegree\) phase change upon reflection (the term \(\frac{1}{2}\lambda_n\)). Because \(\lambda_n = \lambda / n\), we can write the above equation as
+
+     \[2nt = (m + \frac{1}{2})\lambda \]
+
+** Destructive interference
+
+[[./imgs/53278_36_f11-t2.png]]
+
+If the extra distance \(2t\) traveled by ray 2 corresponds to a multiple of \(\lambda_n\). the two waves combine out of phase and the result is destructive interference. The general equation for /destructive/ interference in thin film is
+
+\[2nt = m\lambda \]

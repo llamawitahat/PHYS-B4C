@@ -21,14 +21,15 @@ If two or more travelling waves are moving through a medium, the resultant value
     \[d \sin{\theta_{bright}} = m \lambda \]    \[m = 0, \pm 1, \pm 2,...\]
 
     + The number $m$ is called the **order number**.
-      - The order number is the same as the number of wavelengths that represents the path difference between the waves from the two slits. Basically, the reason why an integer value is the condition for constructive interference is because an integer value represents a wave period. So, assuming that the two rays start at the same point, they'll be in phase when they reach the point $P$
+      - The order number is the same as the number of wavelengths that represents the path difference between the waves from the two slits. Basically, the reason why an integer value is the condition for constructive interference is because an integer value represents a wave period. So, assuming that the two rays start at the same point, they'll be in phase when they reach the point $P$.
+      - To put it even more simple (because the wording in the textbook is really obtuse), \(m\) is the number of bright fringes.
 
   - When $\delta$ is an odd multiple of $\lambda/2$, the two waves arriving at point $P$ are 180° out of phase and cause destructive interference.
     + Therefore, the condition for dark fringes, or destructive interference, at point $P$ is
 
       \[d \sin{\theta_{dark}} = (m+ \frac{1}{2})\lambda \]    \[m = 0, \pm 1, \pm 2, ... \]
 
-  - These equations provide *angular* positions of the fringes. It's aso useful to obtain expressions for the *linear* positions measured along the screen from the point of exit to the end-point. So, using the good ole SOH CAH TOA, we can get
+  - These equations provide *angular* positions of the fringes. It's also useful to obtain expressions for the *linear* positions measured along the screen from the point of exit to the end-point. So, using the good ole SOH CAH TOA, we can get
 
     \[\tan{\theta} = \frac{y}{L} \]
 
