@@ -1,5 +1,5 @@
 #+title: 36.1 Young's Double-Slit Experiment
-#+options: latexpreview
+#+startup: latexpreview
 
 * Background
 + Interference in light waves from two sources was first demonstrated by Thomas Young in 1801

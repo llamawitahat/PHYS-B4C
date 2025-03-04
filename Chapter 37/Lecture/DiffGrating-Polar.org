@@ -1,0 +1,116 @@
+#+title: Diffraction Grating, Polarization
+#+startup: latexpreview inlineimages
+
+* Interference Patterns
++ Central maximum doesn't change regardless of the amount of slits
++ More slits = more brighter and more destructive interference
+  * Explainable with conservation of energy
+    - Same amount of energy still has to go through the slits, so more openings means that each of those points are going to be smaller, but more intense
++ Angular position stays the same
++ More focused with more slits
+
+* Diffraction Grating
++ DVDs
++ Parallel grooves means interference patterns
+
+** Bright Fringes
+
+\[ d\sin{\theta} = m\lambda \]
+
+\[ m = 0,\pm 1, \pm 2, \pm 3,... \]
+
+
+\[ y = L\frac{m\lambda}{d} \]     (15º or less)
+
++ No equations for dark fringes?
++ No reliabe way to predict dark fringes.
++ Bear in mind what to use where
+  - Single slit: destructive
+  - Double-slit: constructive and destructive
+  - Diffraction: constructive
++ Assume everything is uniform
+
+** Application: Spectral Analysis
++ Setup: Diffraction grating as the slits the light goes through, and a screen that it hits
++ By sending light through diffraction grating, you can split apart the waves in a stream of light
++ Can observe the light waves within half a nanometer of accuracy!
+
+** Conceptual Problem 1
+A diffraction grating produces an interference pattern
+
+c. Fringes stay in the same spot
+
+** Practice Problem 1
+Light from a helium-neon laser, $\lambda = 633\text{ nm}$, passes through a diffraction grating. A first-order maximum occurs at 19.3º.
+
+*** A) What is the spacing (in µm) between adjacent grooves in the grating?
++ $\lambda = 633\text{ nm}$
++ $\theta = 19.3\text{\textdegree}$
++ Need $d$
+
+  \[ d\sin{\theta} = m\lambda \]
+
+  \[d = \frac{m\lambda}{\sin{\theta}} = 1.92 \mu \text{m}\]
+
+*** B) How many grooves?
+
+\[ d = \frac{1.92\text{ }\mu\text{m}}{\text{groove}} \]
+
+\[ \frac{1}{d} = \frac{0.522 \text{ grooves}}{\mu \text{m}} = 522 \frac{\text{grooves}}{\text{mm}} \]
+
+** Practice Problem 2
+Light from a sodium lamp passes through a diffraction grating having 1000 slits/mm. The interference pattern is viewed on a screen 1.000 m behind the grating.
+
+Two bright yellow fringes are visible 72.88 cm and 73.00 cm from the central max. What are the wavelengths of these fringes?
+
+*** Solution
++ We have the equations
+
+  \[ y = \frac{m\lambda}{d} \] or \[ d\sin{\theta} = m\lambda \]
+
+  \[ d = \frac{1 \text{ mm}}{1000 \text{ slits}} \]
+
+  \[ d = 1.00\times 10^{-6} \text{ m}\]
+
++ Also SOH CAH TOA to find angle
+
+ \[ \tan{\theta} = \frac{\text{opp}}{\text{adj}} \implies \theta = \tan^{-1}{\left(\frac{\text{opp}}{\text{adj}}\right)} \]
+
+ \[ \theta_{1} = 36.13\degree \]
+
+ \[ \theta_{2} = 36.08\degree \]
+
+ \[ d\sin{\theta} = m\lambda \implies \lambda = \frac{d\sin{\theta}}{m} \]
+
+ \[ \lambda_{1} = 589.0 \text{ nm} \]
+
+ \[ \lambda_{2} = 588.6 \text{ nm} \]
+
+
+
+* Polarization
++ A method for changing the intensity of light waves
+
++ Examples:
+  - Sunglasses
+    - Limits what light can pass through
+      - Only light that is aligned
+
+** Malus's law
+
+\[ I = I_{{\text{max}}} \cos^{2}{\theta} \]
+
+How the intensity is going to change based on
+- the max intensity and
+- the relative angle between the two polaroids
+
+** Practice Problem 3
+A pair of polarized sunglasses are oriented so that the angle between the polarizing axes of two of the lenses is 30.0º. Unpolarized light from the Sun (at Earth's surface) is directed at the sunglasses with an average intensity of 750 $W/m^2$
+
+Calculate the intensity of light after it passes through the first lens.
+
+\[ I = I_{\text{max}}\cos^{2}{\theta} \]
+
+\[ I_{2} = I_{1}\cos^{2}{30.0} \]
+
+\[ I_{2} = 281 \frac{W}{m^{2}} \]

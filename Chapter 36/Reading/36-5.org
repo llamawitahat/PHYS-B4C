@@ -1,5 +1,5 @@
 #+title: 36.5 Interference in Thin Films
-#+options: latexpreview
+#+startup: latexpreview
 
 * Fundamentals
 

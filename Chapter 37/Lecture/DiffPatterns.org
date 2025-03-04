@@ -1,0 +1,153 @@
+#+title: Diff Patterns
+#+startup: latexpreview
+
+
+* Exam 1
++ Chapter 34: prism problem
++ Chapter 35: thin lenses problem
++ Chapter 36: one of two
+  - What are the wavelengths that are strongly reflected/transmitted
+  - OR problem at end of lecture last week
++ Chapter 37: FIND OUT LATER
+
+** What to bring
++ Calculator
++ Cheat Sheet
+  - Handwritten
+  - Double-sided
+
+* Single Slit Diffraction
++ If light behaved like a particle, you would see a straight line
++ If light behaved like a wave, you would see interference
+
+** Compared to Double-Slit
++ Central maximum of single-slit is twice as wide as in the double-slit (see [[~/Documents/PHYS-B4C/Chapter 37/Reading/37-2.org][Section 37.2]])
+
+** Huygens' Principle
++ Waves move out in spherical motion
++ The wave front has an infinite number of wave sources
++ In 3 dimensions, moves out as a sphere. In 2 dimensions, moves out as a circle
+
+*** How this is relevant to slits
++ You can subdivide the slit with as many sources of light as you like
+  - This is called *diffraction*
++ Same thing as Young's double-slit, but instead, the distance is the slit width
+
+** Equations
+
+*** Destructive interference
+
+\[ \sin{\theta_{\text{dark}}} = m \frac{\lambda}{a} \]
+
+\[m = \pm 1, \pm 2, \pm 3,... \]
+
++ No more 0, because 0º is the central max
+
+*** Central max width
+
+\[w = \frac{2\lambda L}{a} \]
+
++ Linear distance
++ Again, small angles (\(\theta \le \text{15\textdegree} \))
+
+** Practice Problem 1
+Light from a helium-neon laser, \(\lambda = 633nm\), passes through a narrow slit and is seen on a screen 2.00 m behind the slit. The first minimum in the diffraction pattern is 1.20 cm from the central max. How wide is the slit in mm?
+
+*** Values
++ \(\lambda = 633\text{ nm}\)
++ \(L = 2.00\text{ m}\)
++ \(w/2 = 1.20 \text{ cm}\)
+
+*** Solution
++ Figuring out if it's a small angle
+
+  SOH CAH TOA
+
+  \[ \tan{\theta} = \frac{w/2}{L} \]
+
+  \[\theta = \tan^{-1}\frac{w/2}{L} \]
+
+  \[\theta = 0.344\text{\textdegree} \]
+
++ Since we know that it's a small angle
+
+  \[w = \frac{2\lambda L}{a} \]
+
+  \[ a = \frac{2\lambda L}{w} \]
+
+  \[\boxed{a = 0.106\text{ mm}} \]
+
+* Circular Slit Diffraction
+
+** Destructive interference
+
+\[ \theta_1 = \frac{1.22\lambda}{D} \]
+
+** Central max width
+
+\[ w = 2y_1 = 2L\tan{\theta_1} = \frac{2.44\lambda L}{D} \]
+
++ Yet again, only for small angles
++ BUT we only have small angles in this case
+
+** Practice Problem 2
+Light from a helium-neon laser, \(\lambda = 633nm\), passes through a 0.500 mm diameter hole. How far away should a viewing screen be placed to observe a diffraction pattern whose central max is 3.00 mm in diameter?
+
+*** Values
++ \(\lambda = 633 \text{ nm}\)
++ \(w = 0.500\text{ mm}\)
++ \(D = 3.00 \text{ mm}\)
+
+*** Solution
+Find L
+
++ Small angle?
+
+  \[w =\frac{2.44L}{D} \]
+
+  \[L = \frac{wD}{2.44} \]
+
+  \[\boxed{L = 0.971 \text{ m} }\]
+
+* Resolution of Circular Apertures
+
+\[\theta_{min} = \frac{1.22\lambda}{D}\]
+
++ From further away, the angle is smaller
++ Closer up, the angle is larger
+
+
+** Practice Problem 3
+The Hubble Space Telescope has a diameter of 2.40 m. Assume an avereage wavelength of light 550 nm entering the teledcope
+
+*** Part A
+What is the angle between two just-resolvable point light sources (perhaps two stars)?
+
+**** Values
++ \(\lambda = 550\text{ nm}\)
++ \(D = 2.40 \text{ m}\)
+
+**** Solution
+
+\[ \theta_{min} = \frac{1.22\lambda}{D} \]
+
+\[ \theta_{min} = 2.80\times 10^{-7} \text{ rad} \]
+
+*** Part B
+If these two stars are at a distance of 2 million light years (the distance to Andromeda Galaxy), how close together can they be and still be resolved
+
+**** New Value
++ L = 2 million light years
+
+**** Solution
+So, this is gonna be a REALLY small angle
+
+\[ s = r\theta \]
+
+\[ s = (2\times 10^6 \text{ ly})(2.80\times 10^{-7}\text{ rad}) \]
+
+\[s = \boxed{0.559\text{ ly}} \]
+
+\[5.29 \times 10^{15} \text{ m}\]
+
+132 million times around earth!

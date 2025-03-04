@@ -1,0 +1,25 @@
+#+title: 37.5 Diffraction of X-Rays by Crystals
+#+startup: latexpreview inlineimages
+
+* Crystals and X-Rays
++ Pretty much any electromagnetic wave can be determined if a grating of proper spacing is available
++ (1913) Max von Laue suggested that the regular array of atoms in a crystal could act as a three-dimensional diffraction grating for x-rays.
+  - Subsequent experiments confirmed this prediction
+
+** X-Ray Observations
++ Weird arrangement of dots is called a /Laue pattern/
++ You can figure out the crystalline structures this way!
+
+  [[./imgs/xray1.png]]
+
+*** More Laue pattern visuals
+a) A Laue pattern of a single crystal of the mineral beryl
+b) A Laue pattern of the enzyme Rubisco, produced with a wideband x-ray spectrum
+
+[[./imgs/laue.png]]
+
+
+** Bragg's law
++ Condition for constructive interference for upper and lower x-ray beams
+
+\[ 2d \sin{\theta} = m\lambda \]        \[ m = 1,2,3,... \]

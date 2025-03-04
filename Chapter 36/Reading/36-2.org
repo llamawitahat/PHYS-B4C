@@ -1,5 +1,5 @@
 #+title: 36.2 Analysis Model: Waves in Interference
-#+options: latexpreview
+#+startup: latexpreview
 
 * Superposition principle
 If two or more travelling waves are moving through a medium, the resultant value of the wave function at any point where the waves both exist is the algebraic sum of the values of the wave functions of the individual waves at that point.

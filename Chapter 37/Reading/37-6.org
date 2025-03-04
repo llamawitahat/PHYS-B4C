@@ -1,0 +1,2 @@
+#+title: 37.6 Polarization of Light Waves
+#+startup: latexpreview inlineimages

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-02-20 Thu 17:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Diffraction Grating, Polarization</title>
+<meta name="author" content="Jake Kratt" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Diffraction Grating, Polarization</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org5ab413b">1. Interference Patterns</a></li>
+<li><a href="#org4f38a97">2. Diffraction Grating</a>
+<ul>
+<li><a href="#org3f61714">2.1. Bright Fringes</a></li>
+<li><a href="#org6efdae8">2.2. Application: Spectral Analysis</a></li>
+<li><a href="#org70a4eab">2.3. Conceptual Problem 1</a></li>
+<li><a href="#orgc9fa207">2.4. Practice Problem 1</a>
+<ul>
+<li><a href="#org8b7556d">2.4.1. A) What is the spacing (in µm) between adjacent grooves in the grating?</a></li>
+<li><a href="#org4f2d070">2.4.2. B) How many grooves?</a></li>
+</ul>
+</li>
+<li><a href="#org14cb1fc">2.5. Practice Problem 2</a>
+<ul>
+<li><a href="#orgad2612b">2.5.1. Solution</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb96bf33">3. Polarization</a>
+<ul>
+<li><a href="#org0e8a486">3.1. Malus&rsquo;s law</a></li>
+<li><a href="#org572d74e">3.2. Practice Problem 3</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5ab413b" class="outline-2">
+<h2 id="org5ab413b"><span class="section-number-2">1.</span> Interference Patterns</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Central maximum doesn&rsquo;t change regardless of the amount of slits</li>
+<li>More slits = more brighter and more destructive interference
+<ul class="org-ul">
+<li>Explainable with conservation of energy
+<ul class="org-ul">
+<li>Same amount of energy still has to go through the slits, so more openings means that each of those points are going to be smaller, but more intense</li>
+</ul></li>
+</ul></li>
+<li>Angular position stays the same</li>
+<li>More focused with more slits</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4f38a97" class="outline-2">
+<h2 id="org4f38a97"><span class="section-number-2">2.</span> Diffraction Grating</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>DVDs</li>
+<li>Parallel grooves means interference patterns</li>
+</ul>
+</div>
+<div id="outline-container-org3f61714" class="outline-3">
+<h3 id="org3f61714"><span class="section-number-3">2.1.</span> Bright Fringes</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+\[ d\sin{\theta} = m\lambda \]
+</p>
+
+<p>
+\[ m = 0,\pm 1, \pm 2, \pm 3,... \]
+</p>
+
+
+<p>
+\[ y = L\frac{m\lambda}{d} \]     (15º or less)
+</p>
+
+<ul class="org-ul">
+<li>No equations for dark fringes?</li>
+<li>No reliabe way to predict dark fringes.</li>
+<li>Bear in mind what to use where
+<ul class="org-ul">
+<li>Single slit: destructive</li>
+<li>Double-slit: constructive and destructive</li>
+<li>Diffraction: constructive</li>
+</ul></li>
+<li>Assume everything is uniform</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6efdae8" class="outline-3">
+<h3 id="org6efdae8"><span class="section-number-3">2.2.</span> Application: Spectral Analysis</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Setup: Diffraction grating as the slits the light goes through, and a screen that it hits</li>
+<li>By sending light through diffraction grating, you can split apart the waves in a stream of light</li>
+<li>Can observe the light waves within half a nanometer of accuracy!</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org70a4eab" class="outline-3">
+<h3 id="org70a4eab"><span class="section-number-3">2.3.</span> Conceptual Problem 1</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+A diffraction grating produces an interference pattern
+</p>
+
+<ol class="org-ol">
+<li>Fringes stay in the same spot</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc9fa207" class="outline-3">
+<h3 id="orgc9fa207"><span class="section-number-3">2.4.</span> Practice Problem 1</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Light from a helium-neon laser, \(\lambda = 633\text{ nm}\), passes through a diffraction grating. A first-order maximum occurs at 19.3º.
+</p>
+</div>
+<div id="outline-container-org8b7556d" class="outline-4">
+<h4 id="org8b7556d"><span class="section-number-4">2.4.1.</span> A) What is the spacing (in µm) between adjacent grooves in the grating?</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<ul class="org-ul">
+<li>\(\lambda = 633\text{ nm}\)</li>
+<li>\(\theta = 19.3\text{\textdegree}\)</li>
+<li><p>
+Need \(d\)
+</p>
+
+<p>
+\[ d\sin{\theta} = m\lambda \]
+</p>
+
+<p>
+\[d = \frac{m\lambda}{\sin{\theta}} = 1.92 \mu \text{m}\]
+</p></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4f2d070" class="outline-4">
+<h4 id="org4f2d070"><span class="section-number-4">2.4.2.</span> B) How many grooves?</h4>
+<div class="outline-text-4" id="text-2-4-2">
+<p>
+\[ d = \frac{1.92\text{ }\mu\text{m}}{\text{groove}} \]
+</p>
+
+<p>
+\[ \frac{1}{d} = \frac{0.522 \text{ grooves}}{\mu \text{m}} = 522 \frac{\text{grooves}}{\text{mm}} \]
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org14cb1fc" class="outline-3">
+<h3 id="org14cb1fc"><span class="section-number-3">2.5.</span> Practice Problem 2</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+Light from a sodium lamp passes through a diffraction grating having 1000 slits/mm. The interference pattern is viewed on a screen 1.000 m behind the grating.
+</p>
+
+<p>
+Two bright yellow fringes are visible 72.88 cm and 73.00 cm from the central max. What are the wavelengths of these fringes?
+</p>
+</div>
+<div id="outline-container-orgad2612b" class="outline-4">
+<h4 id="orgad2612b"><span class="section-number-4">2.5.1.</span> Solution</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<ul class="org-ul">
+<li><p>
+We have the equations
+</p>
+
+<p>
+\[ y = \frac{m\lambda}{d} \] or \[ d\sin{\theta} = m\lambda \]
+</p>
+
+<p>
+\[ d = \frac{1 \text{ mm}}{1000 \text{ slits}} \]
+</p>
+
+<p>
+\[ d = 1.00\times 10^{-6} \text{ m}\]
+</p></li>
+
+<li><p>
+Also SOH CAH TOA to find angle
+</p>
+
+<p>
+\[ \tan{\theta} = \frac{\text{opp}}{\text{adj}} \implies \theta = \tan^{-1}{\left(\frac{\text{opp}}{\text{adj}}\right)} \]
+</p>
+
+<p>
+\[ \theta_{1} = 36.13\text{\textdegree} \]
+</p>
+
+<p>
+\[ \theta_{2} = 36.08\text{\textdegree} \]
+</p>
+
+<p>
+\[ d\sin{\theta} = m\lambda \implies \lambda = \frac{d\sin{\theta}}{m} \]
+</p>
+
+<p>
+\[ \lambda_{1} = 589.0 \text{ nm} \]
+</p>
+
+<p>
+\[ \lambda_{2} = 588.6 \text{ nm} \]
+</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb96bf33" class="outline-2">
+<h2 id="orgb96bf33"><span class="section-number-2">3.</span> Polarization</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>A method for changing the intensity of light waves</li>
+
+<li>Examples:
+<ul class="org-ul">
+<li>Sunglasses
+<ul class="org-ul">
+<li>Limits what light can pass through
+<ul class="org-ul">
+<li>Only light that is aligned</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-org0e8a486" class="outline-3">
+<h3 id="org0e8a486"><span class="section-number-3">3.1.</span> Malus&rsquo;s law</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+\[ I = I_{{\text{max}}} \cos^{2}{\theta} \]
+</p>
+
+<p>
+How the intensity is going to change based on
+</p>
+<ul class="org-ul">
+<li>the max intensity and</li>
+<li>the relative angle between the two polaroids</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org572d74e" class="outline-3">
+<h3 id="org572d74e"><span class="section-number-3">3.2.</span> Practice Problem 3</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+A pair of polarized sunglasses are oriented so that the angle between the polarizing axes of two of the lenses is 30.0º. Unpolarized light from the Sun (at Earth&rsquo;s surface) is directed at the sunglasses with an average intensity of 750 \(W/m^2\)
+</p>
+
+<p>
+Calculate the intensity of light after it passes through the first lens.
+</p>
+
+<p>
+\[ I = I_{\text{max}}\cos^{2}{\theta} \]
+</p>
+
+<p>
+\[ I_{2} = I_{1}\cos^{2}{30.0} \]
+</p>
+
+<p>
+\[ I_{2} = 281 \frac{W}{m^{2}} \]
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Jake Kratt</p>
+<p class="date">Created: 2025-02-20 Thu 17:02</p>
+</div>
+</body>
+</html>

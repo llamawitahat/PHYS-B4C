@@ -1,0 +1,63 @@
+#+title: 37.3 Resolution of Single-Slit and Circular Apertures
+#+startup: latexpreview inlineimages
+
+* Single-Slit
+
+Angle depends on how close the observer is to the target
+
+
+[[./imgs/37-3-angles.png]]
+
+
++ For a singular slit, the minimum angle to resolve the two images is
+
+  \[ \sin{\theta} = \frac{\lambda}{a} \]
+
+  where $a$ is the width of the slit.
+
++ Because \[ \lambda \ll a \] in most situations, $\sin{\theta}$ is small and we can use the approximation $\sin{\theta} \approx \theta$.
+
++ Therefore, the angle of resolution for a slit of width $a$ is
+
+  \[\theta_{\text{min}} = \frac{\lambda}{a} \]
+
+  where \(\theta_{\text{min}}\) is expressed in *radians* (do not forget about this on a test).
+
+* Circular Apertures
+
+[[./imgs/37-3-aperture.png]]
+
+
++ Analysis shows that the minimum angle to resolve two images in a circular aperture is
+
+  \[ \theta_{\text{min}} = 1.22\frac{\lambda}{D} \]
+
+  where $D$ is the diameter of the aperture.
+
+
+* Examples
+
+** Example 37.2 Resolution of the Eye
++ Light of wavelength 500 nm, near the center of the visible spectrum, enters a human eye. Although pupil diameter varies from person to person, let's estimate a daytime diameter of 2 mm.
+
++ Estimate the limiting angle of resolution for this eye, assuming its resolution is limited only by diffraction.
+
+*** Solution
++ *Conceptualize*: Identify the pupil of the eye as the aperture through which the light travels. Light passing through this small aperture causes diffraction patterns to occur on the retine
++ *Categorize*: We determine the result using equations developed in this section, so we categorize this example as a substitution problem
+
+  \[ \theta_{\text{min}} = 1.22 \frac{\lambda}{D} = 1.22 \left(\frac{5.00\times 10^{-7} \text{ m}}{2\times 10^{-3} \text{ m}} \right) = \boxed{3\times 10^{-7}\text{ rad}} \approx \boxed{\text{1 min of arc}}  \]
+
+  where a minute of arc is $1/60$ of a degree.
+
+
+** Example 37.3 Resolution of a Telescope
++ Each of the two telescopes at the Keck Observatory on the dormant Mauna Kea volcano in Hawaii has an effective diameter of $\text{10 m}$. What is its limiting angle of resolution for \(\text{600-nm}\) light?
+
+*** Solution
++ *Conceptualize*: Identify the aperture through which the light travels as the opening of the telescope. Light passing through this aperture causes diffraction patterns to occur in the final image.
++ *Categorize*: We determine the result using equations developed in this section, se we categorize this example as a substitution problem.
+
+  \[ \theta_{\text{min}} = 1.22\frac{\lambda}{D} = 1.22\left(\frac{6.00\times 10^{-7}\text{ m}}{10 \text{ m}} \right) = \boxed{7.3\times10^{-8}\text{ rad}} \approx \boxed{0.015\text{ s of arc}} \]
+
+  where a second of arc is $1/60$ of a minute of arc.

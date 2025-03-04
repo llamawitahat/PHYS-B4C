@@ -1,4 +1,5 @@
-#+title: Homework
+#+title: Homework - Ch 36
+#+startup: latexpreview
 
 * Problem 1
 + Two slits are separated by 0.370 mm. A beam of 510-nm light strikes the slits, producing an interference pattern. Determine the number of maxima observed in the angular range -31.0º ≤ $\theta$ ≤ 31.0º.
