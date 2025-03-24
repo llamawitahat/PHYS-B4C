@@ -1,0 +1,79 @@
+#+title: Particle in a Finite 1D Box, Tunneling
+#+startup: latexpreview
+#+latexheader: \usepackage{amsmath}
+
+* Particle in a Box & Schrödinger Equation (quick review)
+
+Check back [[./Schrodinger Eq.org][here]]
+
+* Particle in a box (finite height)
+
+\[ \frac{d^{2}\psi}{dx^{2}} = \frac{2m(U-E)}{\hbar^{2}}\psi = C^{2}\psi \]
+
+\[ C^{2} = \frac{2m(U - E)}{\hbar^{2}} \]
+
+[[./potentialwell.png]]
+
+\[ \psi = Ae^{Cx}+Be^{-Cx} \] for regions I and III
+
+\[ \psi = F\sin{kx} + G\cos{kx} \] for region II
+
+(See OpenStax textbook for more details)
+
+There's a chance of finding the particle outside of the box??
+
+* Tunneling Through a Barrier
+
+[[./potentialbarrier.png]]
+
++ Outside of barrier particle has a sinusoidal function
++ Decreasing exponential function inside of barrier
+
+\[ T = e^{-2L\sqrt{\frac{2m(U-E)}{\hbar^{2}}}} \]
+
+\[T+R=1\]
+
+* Practice Problems
+** Practice Problem 1
+The Schrödinger equation for a particle trapped in a one-dimensional is given by:
+
+\[ -\frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}}-\left( \frac{b\hbar^{2}}{mx} \right)\psi  = E\psi \]
+
+Assume the solution of the normalized wave function is given by:
+
+\[ \psi(x) = Cxe^{-bx} \]
+
+Substitute the wave function into the Schrödinger equation and find the energy $E$ of the system in terms of $\hbar$, m, and b.
+
+*** Solution
+
+\[ \frac{d\psi}{dx} = Ce^{-bx}-bCxe^{-bx} \]
+
+\[ \frac{d^{2}\psi}{dx^{2}} = b^{2}Cxe^{-bx} -2bCe^{-bx} \]
+
+Plugging into Schrödinger equation
+
+\[ -\frac{\hbar^{2}}{2m}(b^{2}Cxe^{-bx}-2bCe^{-bx}) - \left( \frac{b\hbar^{2}}{mx} \right)Cxe^{-bx} = ECxe^{-bx} \]
+
+Reducing this bad boy gets us
+
+\[ E = \boxed{-\frac{\hbar^{2}b^{2}}{2m}} \]
+
+** Practice Problem 2
+An incoming electron is incident on a rectangular potential energy barrier. The barrier's height is 2.5 eV and its width is 0.40 nm. What energy (in eV) would the electron to have if it were to have a 2.0% probability of being able to quantum mechanically tunnel through the barrier?
+
+*** Solution
+
+\[ T = e^{-2L\sqrt{\frac{2m(U-E)}{\hbar^{2}}}} \]
+
+\[ \ln{T} = -2L\sqrt{\frac{2m(U-E)}{\hbar^{2}}} \]
+
+\[ \frac{\ln{\frac{1}{T}}}{2L} = -\sqrt{\frac{2m(U-E)}{\hbar^{2}}} \]
+
+\[ \frac{\hbar^{2}\ln^{2}{\frac{1}{T}}}{8mL^{2}} = U - E \]
+
+\[ E = U -\frac{\hbar^{2}\ln^{2}{\frac{1}{T}}}{8mL^{2}} \]
+
+\[\dots\]
+
+\[ E = 2.55\times 10^{-19}\text{ J} = \boxed{1.59\text{ eV}} \]

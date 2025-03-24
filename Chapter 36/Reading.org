@@ -1,5 +1,0 @@
-#+title: Reading
-
-* 36.1. Young's Double-Slit Experiment
-
-1

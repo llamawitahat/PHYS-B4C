@@ -1,0 +1,26 @@
+#+title: 40.1 The Wave Function
+#+startup: latexpreview inlineimages
+
+* Electromagnetic radiation using the particle model
++ The probability per unit volume of finding a photon in a given region of space at an instant of time is proportional to the number of photons per unit volume at that time:
+
+  \[ \frac{\text{Probability}}{V} \propto \frac{N}{V} \]
+
++ The number of photons per unit volume is proportional to the intensity of the radiation:
+
+  \[ \frac{N}{V} \propto I \]
+
+** Connecting this (the particle model) to the wave model
++ Recall that the intensity of electromagnetic radiation is proportional to the square of the electric field amplitude $E$ for the electromagnetic wave
+
+  \[ I \propto E^{2} \]
+
++ Equating this relationship to the first one mentioned gives
+
+  \[ \frac{\text{Probability}}{V} \propto E^{2} \]
+
++ Therefore, the probability per unit volume of finding a particle associated with this radiation (of the photon) is proportional to the square amplitude of its associated electromagnetic wave.
+
+** Probability Amplitude & the Wave Function
+
+\[ \psi(x) = Ae^{ikx} \]

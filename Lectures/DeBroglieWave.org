@@ -1,0 +1,110 @@
+#+title: De Broglie Wave
+#+startup: latexpreview inlineimages
+
+* Wave-Particle Duality
++ Three tests:
+  - Diffraction
+  - Interference
+  - Polarization
++ Other observations show light can behave like a particle
+  - Blackbody radiation
+  - Photoelectric effect
+  - Compton scattering
++ Is light a wave or a particle?
+  - Yes.
+
+** The de Broglie Wavelength
+
+\[ p = \frac{E}{c} = \frac{hf}{c} = \frac{h}{\lambda} \]
+
+\[ \lambda = \frac{h}{p} \]     \[ f = \frac{E}{h} \]
+
++ Taking Planck's constant and dividing it by the momentum of a particle gives its wavelength
++ Taking the energy of the particle and dividing it by Planck's constant gives the frequency wavelength
+
+*** Electrons in Double-Slit Experiment
++ Same conclusion as before
+  \[d\sin{\theta} = m\lambda\]
+  - In this case, the wavelength is the de Broglie wavelength, further cementing the Wave-Particle duality
+  - With enough electrons, you start to see the exact results of Young's Double-Slit Experiment
+
+** Building a Wave Particle
++ A particle is localized (it has a specific point in space)
++ Particle "beats"
+  - Particles interacting as waves can interfere constructively and destructively
+  - This is what cases that "wobbling" sound effect when instruments are out of tune, instead of being resonant
+
+*** Wave Packet
++ Multiple waves added up
+  - (programming project?)
++ Take an infinite amount of waves at different frequencies, and most will destructively interfere
++ What is the probability that you will find this in space?
+
+** Uncertainty Principle
+\[ \Delta x \Delta p_{x} \ge \frac{\hbar}{2} \]
+
+\(\Delta x\) is the uncertainty of the position of the particle
+\(\Delta p_{x}\) is the uncertainty of the momentum of the particle
+
+\[ \hbar = \frac{h}{2\pi} \] (reduced Planck's Constant)
+
++ In the quantum world, there is a limit to the measurements you can make
++ In order to be more certain about one quantity, you need to sacrifice (some) certainty of the other
+
+*** Uncertainty of Time
+\[ \Delta E \Delta t \ge \frac{\hbar}{2} \]
+
++ Same concept
++ NOW we can violate conservation of energy, because why not?
+
+* EXERCISES!!
+** Practice Problem 1
+In September 2010, a baseball pitcher for the Cincinnati Reds was clocked throwing a baseball at an incredible 105.8 miles per hour. Calculate the de Broglie wavelength of this baseball.
+
+Assume the mass of the baseball is 145 g.
+Assume 1.609 km = 1 mi.
+
+*** Solution
+
+\[ v = (105.8mi/hr)(1.609km/1\text{ mi})(1000m/1km)(1hr/3600s) = 47.3m/s \]
+
+\[ p = mv = (0.145kg) = 47.3kg\cdot m/s = 6.86 kg\cdot m/s \]
+
+\[ \lambda = \frac{6.626\times 10^{-34}kg\cdot m^{2} / s}{47.3kg\cdot m/s} = \boxed{9.66\times 10^{-35} \text{ m}} \]
+
+** Practice Problem 2
+Assume you have a tool that can measure speeds with a precision of 0.001 m/s. Calculate the minimum uncertainty in the position of
+
+a) an electron (in cm)
+b) a 145 g baseball (in m)
+
+*** Part A
+
+\[ \Delta x \Delta p_{x} \ge \frac{\hbar}{2} \]
+
+\[ \Delta v = 0.001m/s \implies \Delta p_{x} = m\Delta v_{x} = 9.109\times 10^{-34} \text{ kg$\cdot$m/s} \]
+
+\[ \Delta x \ge \frac{\hbar}{2\Delta p_{x}} \]
+
+\[ \Delta x \ge \frac{h}{4\pi\Delta p_{x}} = \frac{6.626\times 10^{-34}}{4(3.14)(9.109\times 10^{-34})} = \boxed{5.79 \text{ cm} } \]
+
+*** Part B
+
+\[ \Delta p_{x} = m\Delta v_{x} = 1.45\times 10^{-4} \text{ kg$\cdot$m/s} \]
+
+\[ \Delta x \ge \frac{h}{4\pi\Delta p_{x}} = \boxed{3.64\times 10^{-31} \text{ m}} \]
+
+** Practice Problem 3
+The lifetime of a free neutron is 14.629 minutes with an uncertainty of 0.005 minutes. What is the minimum uncertainty in the rest energy of a neutron in eV?
+
+\[ n\rightarrow p^{+} + e^{-} + \bar{v}_{e} \]
+
+*** Solution
+
+\[ \Delta t = 0.005 min = 0.3s \]
+
+\[ \Delta E \Delta t \ge \frac{\hbar}{2} \]
+
+\[ \Delta E \ge \frac{h}{4\pi \Delta t} \]
+
+\[ \Delta E \ge 1.758\times 10^{-34} \text{ J} = 2.816\times 10^{-15} \text{ eV} \]

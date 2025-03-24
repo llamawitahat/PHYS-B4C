@@ -1,0 +1,91 @@
+#+title: Quantum Intro
+#+startup: latexpreview
+
+* Blackbody Radiation
++ Something with a temperature has an EM field
++ Take for example an incandescent light bulb
+  - Higher temp = higher EM radiation
+
+** Black body
++ an ideal system that absorbs all radiation incident on it
+  - there is no reflection at all on its surface
+
+** Observations (purely by experiments)
+*** Observation 1
++ Power increases with temperature:
+  - \[ P = \sigma A e T^{4} \]
+    + \[\sigma = 5.6696\times10^{-8} \frac{\text{W}}{\text{m}^{2} \cdot \text{K}^{4}} \]
+    + $A$ = Surface Area
+    + $e$ = emissivity (depends on material and how the light is interacting with the object)
+    + $T$ = temperature
+
+*** Observation 2
++ Peak wavelength shifts to be shorter as temp. increases:
+  - \[ \lambda_{\text{max}}T = 2.898\times 10^{-3} \text{ m}\cdot\text{K} \]
+    + $\lambda_{\text{max}}$ = max wavelength
+
+* Planck's Hypothesis
++ Discrete energy: \[ E_{n} = nhf \] (Specific to blackbody radiation)
+  + $h = 6.626\times 10^{-34}\text{ J}\cdot \text{s}$ (Planck's constant)
+  + $f$ = frequency
+  + $n$ is the quantity as an integer
++ Has to be a discrete value each time
+  - This applies to all of quantum physics
+
+* EXERCISES!
+** Practice Problem 1
+*** Part A
+One common band of WiFi communicates over a frequency of 2.40 GHz. Calculate the energy of a photon for this frequency.
+
+**** Solution?
+
+\[ E = hf \]
+
+\[ E = (6.626\times 10^{-34}\text{ m}\cdot \text{K})(2.40\times 10^{9}\text{ Hz}) \]
+
+\[ E = \boxed{1.59\times 10^{-24}\text{ J}} \]
+
+\[ (1.59\times 10^{-24}\text{ J})\left(\frac{1\text{ eV}}{1.602\times 10^{-19}\text{ J}}\right) = \boxed{9.93\times 10^{-6}\text{ eV}} \]
+
+
+*** Part B
+A microwave oven emits an electromagnetic wave of $\lambda = 4.20 \text{ cm}$. Calculate the energy of a photon with this wavelength
+
+\[ \lambda = v/f \implies f = v/\lambda \]
+
+\[ v = c\]
+
+\[  E = hf = \frac{hc}{\lambda} \]
+
+\[ E = \boxed{4.73\times 10^{-24}\text{ J}} \]
+
+
+** Practice Problem 2
+The radius of our Sun is $6.96\times 10^8 \text{ m}$, and its total power output is $3.85\times 10^{26} \text{ W}$.
+
+*** Part A
+Assuming the Sun's surface emits as a black body, calculate its surface temperature
+
+**** Solution
+
+\[ P = \sigma A e T^{4} \]
+
+\[A = 4\pi r^{2}\]
+
+\[ e = 1\]
+
+\[ P = 6.96\times 10^{8} \text{ m} \]
+
+\[ T = \left(\frac{P}{(\sigma) (4 \pi r^{2}) (e)}\right)^{1/4} \]
+
+\[ T = 5779 \text{ K} \]
+
+
+*** Part B
+Based on your result from part a, calculate $\lambda_{\text{max}}$ for the Sun in nm.
+
+**** Solution
+
+\[ \lambda_{\text{max}}T = 2.898\times 10^{-3} \text{ m}\cdot\text{K} \]
+
+\[ \lambda_{\text{max}} = 501.5\text{ nm}\]

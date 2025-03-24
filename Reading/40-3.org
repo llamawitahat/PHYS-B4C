@@ -1,0 +1,85 @@
+#+title: 40.3: The Schrödinger Equation
+#+startup: latexpreview inlineimages
+
+[[../Lectures/PDFs/Chapter 33.pdf][Chapter 33.3]]
+
++ Waves associated with particles also satisfy a wave equation.
++ The wave equation for material particles is different from that associated with photons because material particles have a nonzero rest energy.
++ Schrödinger developed appropriate wave equation in 1926.
++ Led to a standard approach for analyzing the behavior of a quantum system
+
+* Time-independent Schrödinger Equation
+The Schrödinger equation as it applies to a particle of mass $m$ only moving along the $x$ axis and interacting with its environment through a potential energy function $U(x)$ is
+
+\[ -\frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}} + U\psi = E\psi \] (Equation 40.15)
+
+where $E$ is a constant equal to the total energy of the system (the particle and its environment).
+
++ Consistent with conservation of mechanical energy for an isolated system with no nonconservative forces acting.
++ First term refers to the kinetic energy of the particle multiplied by the wave function
++ If we know the potential energy, we can solve the equation and obtain the wave functions and energies for the allowed states of the system
+
+** Conditions for finding an exact solution to the Schrödinger equation
++ \(\psi\) must be normalizable.
+  That is, \[ \int_{-\infty}^{\infty}|\psi|^{2}dx = 1 \] must be satisfied.
++ $\psi$ must go to 0 as \(x\rightarrow \pm \infty\) and remain finite as \(x\rightarrow 0\)
++ $\psi$ must be continuous in $x$ and be single-valued everywhere; solutions to Equation 40.15 in different regions must join smoothly at the boundaries between the regions.
++ $d\psi/dx$ must be finite, continuous, and single-valued everywhere for finite values of $U$. If $d\psi/dx$ were not continuous, we would not be able to evaluate the second derivative $d^{2}\psi/dx^{2}$ in Equation 40.15 at the point of discontinuity.
+
+  It may be difficult to solve, depending on the form of the potential energy function. BUT the Schrödinger equation does a much better job at explaining the behavior of atomic and nuclear systems than classical physics, which is not at all. AND when quantum mechanics is applied to macroscopic objects, the results agree with classical physics. However, at that point it's just better to use the equations in classical physics because they're easier to work with than the quantum ones.
+
+* The Particle in a Box Revisited
+
+[[./imgs/40-3-box.png]]
+
++ Because of the shape of the curve, the particle in a box is sometimes said to be in a *square well*, where a *well* is an upward-facing region of the curve in a potential-energy diagram.
+  * In the region \(0 < x < L\), where \(U = 0\), we can express the Schrödinger equation in the form
+
+    \[ \frac{d^{2}\psi}{dx^{2}} = -\frac{2mE}{\hbar^{2}}\psi = -k^{2}\psi \]
+
+    where
+
+    \[ k = \frac{\sqrt{2mE}}{\hbar} \]
+
++ The solution to the above differential equation is a function $\psi$ whose second derivative is the negative of the same function multiplied by a constant $k^2$. Both the sine and cosine functions satisfy this requirement, so a general solution would look something like this:
+
+  \[ \psi(x) =A\sin{kx} + B\cos{kx} \]
+
+  where $A$ and $B$ are constants that are determined by the boundary and normalization conditions.
+  + First boundary condition: \(\psi(0) = 0\)
+
+    \[ \psi(0) = A\sin{0} + B\cos{0} = 0+B=0 \]
+
+    so that means that $B = 0$
+    * Solution reduces to
+
+      \[ \psi(x) = A\sin{kx} \]
+
+  + Second boundary condition: \(\psi(L) = 0\)
+    * Reduces the equation to
+
+      \[ \psi(L) = A\sin{kL} = 0 \]
+
+  + The equation could be satisfied by setting \(A = 0\), but that would mean that \(\psi = 0\), and that's no good! We wouldn't have a valid wave function (basically, we wouldn't even have a wave, so YOU LOSE! YOU GET NOTHING!)
+    * We're in luck though, because the boundary condition is also satisfied if $kL$ is an integral multiple of $\pi$, so we end up with \(kL = n\pi\), where $n$ is an integer.
+    * If we substitute \(k = \sqrt{2mE}/\hbar\) into this expression, we get
+
+      \[ kL = \frac{\sqrt{2mE}}{\hbar}L = n\pi \]
+
+    * Each value of the integer $n$ corresponds to a quantized energy value that we'll call $E_n$. Solving for E using the above equation gives
+
+      \[ E_{n} = \left( \frac{h^{2}}{8mL^{2}} \right)n^{2} \]
+
+      which are identical to the allowed energies for a particle in a box that we saw earlier.
+
+** Equation for allowed wave functions
++ Based on the values we found in above, the allowed wave functions \(\psi_{n}(x)\) are given by
+
+  \[ \boxed{\psi_{n}(x) = A\sin{\left( \frac{n\pi x}{L}\right)}} \]
+
+  * Keep in mind that this only works for a particle in a 1D box.
+
+** Keep this in mind about potential wells
++ The potential well depicted in this page is merely a graphical representation of energy, not an actual representation, so you wouldn't see this shape if you were able to observe the situation.
+  * A particle moves only /horizontally/ at a fixed vertical position (so it would just flip back around without doing that U-shaped thing).
+  * This is because energy is conserved in the system.

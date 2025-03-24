@@ -1,0 +1,26 @@
+#+title: 39.5 The Wave Properties of Particles
+#+startup: latexpreview
+
++ The dual nature of light is often a concept that is hard to grasp, especially since we view things like a baseball as solely a particle, and things like sound waves as, well, a form of wave motion.
++ Every large-scale observation can be interpreted by considering either a wave or particle explanation, but in the world of photons and electrons, the line between "particle" and "wave" is blurred.
++ Funny enough, under certain conditions, the things we unambiguously call "particles" exhibit wave characteristics!
+
+* The de Broglie Wavelength
++ In his 1923 dissertation, Louis de Broglie postulated that because photons have both wave and particle characteristics, or perhaps all forms of matter have both properties (if you think hard enough about it).
++ According to de Broglie, electrons, just like light, have a dual particle-wave nature.
++ Combining the equations from [[~/Documents/PHYS-B4C/Chapter 39/Lecture/QuantumIntro.org][Max Planck]] and $E=mc^2$ (or something like that), we find that the momentum of a photon can be expressed as
+
+  \[ p = \frac{E}{c} = \frac{hf}{c} = \frac{h}{\lambda} \]
+
+  - The equation shows that the photon wavelength can be specified by its momentum: \(\lambda = h/p\).
++ Because the magnitude of the momentum of a particle of mass $m$ and speed $u$ is \(p = mu\), the *de Brogle wavelength* of that particle is
+
+  \[ \lambda = \frac{h}{p} = \frac{h}{mu} \]
+
++ Furthermore, de Broglie postulated that particles obey the Einstein relation \(E = hf\), where $E$ is the total energy of the particle.
+  - The frequency of a particle is then
+
+    \[ f = \frac{E}{h} \]
+
+** The principle of complementarity
++ The wave and particle models of either matter or radiation complement each other.

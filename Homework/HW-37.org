@@ -1,0 +1,252 @@
+#+title: Homework - Ch. 37
+#+startup: latexpreview
+
+* Problem 1
++ Light of wavelength 587.0 nm illuminates a slit of width of 0.72 mm.
+** Part A
++ At what distance from the slit should a screen be placed if the first minimum diffraction is to be 0.93 mm from the central maximum.
+*** Values
++ \(m = 1\)
++ \(a = 0.72\text{ mm}\)
++ \(\lambda = 587.0\text{ nm}\)
++ \(h = 0.93\text{ mm}\)
+*** Solution
+
+\[ \sin{\theta_{\text{dark}}} = m\frac{\lambda}{a} \implies \theta_{\text{dark}} = \sin^{-1}{\left(m\frac{\lambda}{a}\right)} \]
+
+\[ \theta_{\text{dark}} = 0.0467\text{\textdegree} \]
+
+\[ \tan{\theta_{\text{dark}}} = \frac{\text{opp}}{\text{adj}} = \frac{h}{L} \]
+
+\[ L = \frac{h}{\tan{\theta_{\text{dark}}}} \]
+
+\[ L = 1.14\text{m} \]
+** Part B
++ Calculate the width of the central maximum
+*** Solution
+
+  \[ w = \frac{2\lambda L}{a} \]
+
+  \[ w = 1.86\text{ mm} \]
+* Problem 2
++ A steady sound with a frequency of $$f = 750\text{ Hz}$$ is produced by a source located far from an open doorway set in a sound-absorbing wall. The sound waves pass through the w = 1.14 m-wide doorway. (Assume speed of sound is 343 m/s.)
+** Part A
+If a person walks parallel to the wall beyond the open doorway, how many diffraction minima will she encounter?
+*** The numbers
++ \(w = 1.14 \text{ m} = a\)
++ \( f = 750\text{ Hz} \)
++ \( v = 343 \text{ m/s}\)
+*** Solution
+
+\[ w = \frac{2\lambda L}{a} \]
+
+\[ \lambda = v/f \]
+
+\[ \lambda = 457\text{ mm} \]
+
+\[ \sin{\theta_{\text{dark}}} = m\frac{\lambda}{a} \implies \frac{\sin{\theta_{\text{dark}}}}{m} = \frac{\lambda}{a} \]
+
+\[ m = \frac{a\sin{\theta_{\text{dark}}}}{\lambda} \]
+
+\[ m = w/\lambda \]
+
+\[ m = 2 \]
+** Part B
++ What are the angular directions (in degrees) of these diffraction minima? (Enter the magnitudes from smallest
+
+  \[ \theta = \sin^{-1}{\frac{m\lambda}{a}} \]
+
+  \[ \theta_{1} = 23.6 \]
+
+  \[ \theta_{2} = 53.3 \]
+
+  \[ \theta =  \]
+* Problem 3
++ A screen is placed 60.0 cm from a single slit, which is illuminated with light of wavelength 690 nm. If the distance between the first and third minima in the diffraction pattern is 2.90 mm, what is the width of the slit?
+** The numbers
++ \( L = 60.0 \text{ cm} \)
++ \(\lambda = 690 \text{ nm}\)
++ \( y = 2.90 \text{ mm} \)
++ \( m = 2 \)
++ need $a$
+** Solution
+
+\[ \tan{\theta} = \frac{y}{L} \]
+
+\[ \theta = \tan^{-1}{\frac{y}{L}} \]
+
+\[ \theta = 0.27 \text{\textdegree} \]
+
+Small angle so
+
+\[ \tan{\theta_{\text{dark}}} \approx \sin{\theta_{\text{dark}}} \]
+
+\[ \rightarrow \frac{y}{L} = m\frac{\lambda}{a} \]
+
+\[ a = \frac{m\lambda L}{y} \]
+
+\[ \boxed{a = 2.86\times 10^{-4} \text{ m}} \]
+* Problem 4
++ A laser beam is normally incident on a single slit with width 0.610 mm. A diffraction pattern forms on a screen a distance 1.35 m beyond the slit. The distance between the positions of zero intensity on both sides of the central maximum is 2.40 mm. Calculate the wavelength of the light (in nm).
+** The numbers
++ \(a = 0.610 \text{ mm}\)
++ \(L = 1.35 \text{ m}\)
++ \( y = 2.40\text{ mm} \)
++ \(m = 1\)
+** Solution
+
+\[ \sin{\theta_{\text{dark}}} = m\frac{\lambda}{a} \]
+
+\[ \tan{\theta_{\text{dark}}} = \frac{y}{L} \]
+
+\[ \theta_{\text{dark}} = 0.102 \]
+
+small angle
+
+\[\frac{y}{L} = m\frac{\lambda}{a} \]
+
+\[ w = \frac{2\lambda L}{a} \]
+
+\[ \Delta y_{\text{central}} = (y_{\text{dark}}_{m=+1}) - (y_{\text{dark}})_{m=-1} \]
+
+\[ \Delta y_{\text{central}} = \frac{2\lambda L}{a} \]
+
+\[ \lambda = \frac{a\Delta y_{\text{central}}}{2L} \]
+
+\[ \lambda = 542 \text{ nm} \]
+* Problem 5
++ Domestic cats have vertical pupils. Imagine a cat is observing two small birds sitting side-by-side on a telephone wire. If the slit width of the cat's pupils is $$a = 0.520 \text{ mm}$$ and the average wavelength of the ambient light is $$\lambda = 537\text{ nm}$$, what the angular resolution (in rad) for the two birds?
+** The numbers
++ \(a = 0.520 \text{ mm}\)
++ \(\lambda = 537\text{ nm}\)
+** Solution
+
+\[\theta_{\text{min}} = \frac{\lambda}{a} \]
+
+\[ \theta_{\text{min}} = 1.03\times 10^{-3} \text{ rad} \]
+* Problem 6
+** Part A
+A radio telescope has an angular resolution of 0.136º for incident radio waves of wavelength $\lambda = 3.83 \text{ mm}$. what is the minimum diameter (in m) required for the telescope's parabolic receiving dish?
+*** The numbers
++ \(\lambda = 3.83 \text{ mm}\)
++ \(\theta_{\text{min}} = 0.136\text{\textdegree} = 2.37\times 10^{-3}\text{ rad}\)
++ Need $D$
+*** Solution
+
+Telescope, so circular aperture
+
+\[ \theta_{\text{min}} = \frac{1.22\lambda}{D} \]
+
+\[ D = \frac{1.22\lambda}{\theta_{\text{min}}} \]
+
+\[ D = 1.97 \text{ m} \]
+** Part B
+What If? The 21.1 cm line, corresponding to emissions from hyperfine transitions in hydrogen, plays an important role in radio astronomy.
+*** A
+Need $D$
+
+Same $\theta$
+*** B
+* Problem 7
+What is the approximate size of the smallest object on the Earth that astronauts can resolve by eye when they are orbiting 250 km above the Earth? Assume \(\lambda = 598\text{ nm}\) and a pupil diameter is 5.50 mm. (In this problem, you may use the Rayleigh criterion for the limiting angle of resolution of an eye.)
+** The numbers
++ \(\lambda = 598\text{ nm}\)
++ \(D = 5.50 \text{ mm}\)
++ \[ L = 250 \text{ km} \]
+** Solution
+
+\[ \theta_{\text{min}} = \frac{1.22\lambda}{D} \]
+
+\[ \theta_{\text{min}} = 1.326\times 10^{-4} \text{ rad} \]
+
+\[ \sin{\theta_{\text{min}}} = \frac{d}{L} \]
+
+\[ d = L\sin{\theta_{\text{min}}} \]
+
+\[ d = 33.1\text{ m} \]
+* Problem 8
+Light from an argon laser, with $\lambda = 514.5 \text{ nm}$, is normally incident on a diffraction grating, and first-order maximum occurs at $\theta = 19.1\text{\textdegree}$. Calculate the spacing (in µm) between adjacent grooves in the grating.
+** The numbers
++ \(\lambda = 514.5\text{ nm}\)
++ \(\theta = 19.1\text{\textdegree}\)
++ \(m = 1\)
+** Solution
+
+\[ d\sin{\theta} = m\lambda \]
+
+\[ d = \frac{m\lambda}{\sin{\theta}} \]
+
+\[ d = 1.57\text{ $\mu$m} \]
+* Problem 9
+** Part A
+White light is spread out into its spectral components by a diffraction grating. If the grating has _1,980_ grooves per centimeter, at what angle _(in degrees)_ does red light of wavelength _640 nm_ appear in the _first order?_ (Assume that the light is incident normally on the gratings.)
+*** The numbers
+
+\[ g = \frac{1980\text{ grooves}}{\text{cm}} \implies d = \frac{1\text{ cm}}{1980\text{ grooves}} = 5.05 \text{ $\mu$m} \]
+
+\[ \lambda = 640 \text{ nm} \]
+
+\(m = 1\)
+*** Solution
+
+\[ d\sin{\theta} = m\lambda \]
+
+\[ \theta = \sin^{-1}{\frac{m\lambda}{d}} \]
+
+\[\theta_{\text{red}} = 7.28\text{\textdegree} \]
+** Part B
+What If? What is the angular separation (in degrees) between the first-order maximum for 640 nm red light and the first-order maximum for orange light of wavelength 600 nm?
+*** Solution
+
+\[ \theta_{\text{orange}} = \sin^{-1}{\frac{m\lambda}{d}} = 6.82\text{\textdegree} \]
+
+\[ \Delta\theta = \theta_{\text{red}} - \theta_{\text{orange}} = 0.46\text{\textdegree} \]
+* Problem 10
+Light from a laser strikes a diffraction grating that has 5,318 grooves per centimeter. The central and first-order principal maxima are separated by 0.488 m on a wall 1.64 m from the grating. Determine the wavelength of the laser light. (Assume that the light is incident normally on the gratings.)
+** The numbers
+
+\[ d = \frac{1 \text{ cm}}{5318\text{ grooves}} = 1.88\text{ \(\mu\)m} \]
+
+\[ L = 1.64 \text{ m} \]
+
+\[ y = 0.488 \text{ m} \]
+
+Need \(\lambda\).
+** Solution
+
+\[ \theta = \tan^{-1}{\frac{0.488 \text{ m}}{1.64 \text{ m}}} = 16.6\text{\textdegree} \]
+
+\[ d\sin{\theta} = m\lambda \implies \lambda = \frac{d\sin{\theta}}{m} \]
+
+\[ \lambda = 537\text{ nm} \]
+* Problem 11
+Plane-polarized light is incident on a single polarizing disk with the direction of \(\vec{E}_{0}\) parallel to the direction of the transmission axis. Through what angle should the disk be rotated so that the intensity in the transmitted beam is reduced by a factor of:
+
+a) 2.80
+
+\(\theta = 53.3\text{\textdegree} \)
+
+b) 4.00
+
+\(\theta = 60.0\text{\textdegree} \)
+
+c) 13.6
+
+\[\theta = 74.3\text{\textdegree}\]
+** Solution
+
+Malus' Law:
+\[ I = I_{\text{max}}\cos^{2}{\theta} \]
+
+\[ \theta = \cos^{-1}{\left(\frac{I}{I_{\text{max}}}}\right)^{1/2} \]
+* Problem 12
+Unpolarized light passes through _two ideal Polaroid sheets_. The axis of the first is vertical and the axis of the second is at _31.0º_ to the vertical. What fraction of the incident light is transmitted?
+** Solution
+
+After passing through the first sheet:
+
+\[ I_{1} = \frac{1}{2}I_{0} \]
+
+After passing through the second sheet:
+
+\[ I_{2} = \frac{1}{2}I_{0}\cos^{2}{31} = 0.367I_{0} \]

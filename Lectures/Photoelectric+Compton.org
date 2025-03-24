@@ -1,0 +1,115 @@
+#+title: Photoelectric Effect and Compton Effect
+#+startup: latexpreview inlineimages
+
+* Light is Quantized
+
+\[ E = hf \] (Energy of a photon)
+
+
+* [[https://phet.colorado.edu/en/simulations/photoelectric][Photoelectric Effect]]
++ Higher current = higher number of electrons = higher intensity of light
++ Changing the intensity _does not_ change the energy
++ Higher voltage = faster electrons (current is still the same)
++ You'll have some maximum current based on some value of voltage
+
+** Classical vs Modern
++ Classical physics predicts that regardless of the wavelength or intensity, when enough energy is absorbed, it should kick something out
++ But that's not what happens in reality. Quantum physics asserts that there's a specific "sweetspot.""
+  + This is the whole point of quantum physics
+
+** Photoelectric Formula
+
+\[ K_{\text{max}} = hf - \phi = e\Delta V_{s}\]
+
+| Metal | ɸ (eV) |
+|-------+---------|
+| Na    |    2.46 |
+| Al    |    4.08 |
+| Fe    |    4.50 |
+| Cu    |    4.70 |
+| Zn    |    4.31 |
+| Ag    |    4.73 |
+| Pt    |    6.35 |
+| Pb    |    4.14 |
+
+ALL OR NOTHING, BABY!!!
+
+* Compton Scattering Effect
+
+\[ \lambda'-\lambda_{0} = \frac{h}{m_{e}c}(1 - \cos{\theta}) \]
+
+\[ m_{e} = 9.11\times 10^{-31}\text{ kg} \]
+
++ Longer wavelength = less energy
+
+
+* EXERCISES!
+
+** Practice Problem 1
+
+*** Part A
+A violet photon has a wavelength of 425 nm. Calculate its energy in joules and electron volts.
+
+**** Solution
+\[ E = hf \]
+
+\[ f = v/\lambda \]
+
+\[E = \frac{vh}{\lambda}\]
+
+\[ E = 2.92 \text{ eV} \]
+
+*** Part B
+If this violet light shines on cesium (whose work function is 2.10 eV), what is the maximum kinetic energy of electrons ejected from cesium?
+
+**** Solution
+
+\[ K_{\text{max}} = hf - \phi \]
+
+\[ \phi = 2.10 eV \]
+
+\[ K_{\text{max}} = (2.92 - 1.10)\text{ eV} \]
+
+\[ K_{max} = 0.82 \text{ eV} \]
+
+(Negative energy means that it's not enough energy to overcome the work function (kick out the electrons))
+
+** Practice Problem 2
+When a monochromatic light with wavelength 496 nm is incident on a certain photo-sensitive material, photoelectrons are ejected. When yellow-orange light of wavelength 620 nm is incident on the same surface, photoelectrons are also ejected, but with only 30% of the speed of those by the 496 nm photons.
+
+What is the work function of the photo-sensitive material?
+
+Use the approximation \(hc = 1240 \text{ eV $\cdot$ nm }\)
+
+*** Solution
+
+\[ E_{1} = 2.50\text{ eV} \]
+\[ E_{2} = 2.00\text{ eV} \]
+
+\[ K = E - \phi \]
+
+\[ v_{2} = \frac{1}{2}v_{1} \]
+
+\[ K = \frac{1}{2}mv^{2} \]
+
+\[ K_{2} = (0.30)^{2}K_{1} = (0.090)K_{1} \]
+
+\[ K = E-\phi \]
+\[ E = \phi + K \]
+
+\[ E_{1} = \phi + K_{1} \]
+\[ E_{2} = \phi + 0.090K_{1} \]
+
+\[ -(2.50\text{ eV} = \phi + K_{1})0.090 \]
+\[ 2.00 \text{ eV} = \phi + 0.0090K_{1} \]
+
+\[ 1.775\text{ eV} = 0.910\phi \]
+
+\[\phi = \boxed{1.95 \text{ eV}} \]
+
+** Practice Problem 3
+An incident 71.80 pm x-ray is incident on a graphite target. Calculate the wavelength (in pm) of the x-ray scattered at a 30.5º angle. (Round your answer to 4 sig figs.)
+
+\[ \lambda' = \lambda_{0} + \frac{h}{m_{e}c}(1 - \cos{\theta}) \]
+
+\[ \lambda' = 718.0pm + \left(\frac{6.626\times 10^{-34}J\cdot s}{(9.11\times 10^{-31} kg)()}\right)  \]

@@ -1,0 +1,173 @@
+#+title: Probability Density, Particle in an Infinite 1D Box
+#+startup: latexpreview inlineimages
+
+* Probability
+
+Wave:
+
+\[ \frac{\text{Probability}}{V} \propto E^{2} \]
+
+Particle:
+
+\[ \frac{\text{Probability}}{V} \propto \Psi^{2} \]
+
+** Depends on:
++ Number of photons
+  - Depends on intensity of photons
+
+** The Wave Function
+
+\[ \Psi = \psi(\vec{r})e^{-i\omega t} \]
+
++ The wave function itself is often not *real* (complex)
+  - When you square it, it does become measurable
++ $\psi$ tells you the position
++ $e^{-i\omega t}$ a snapshot in time of the particle (we're mostly going to ignore this)
+
+
+** Complex Numbers
++ Standard form:
+
+          \[a+bi\]
+
++ Conjugate:
+
+          \[ a-bi \]
+
++ Can be viewed as rectangular coordinates
+
++ When you multiply the standard form by its conjugate, you ALWAYS get a real, positive number
+  - (This is where we find $\Psi^2$)
+
+*** Alternative form:
+
+        \[ e^{i\theta} = \cos{\theta} + i\sin{\theta} \]
+
++ Rewriting \(e^{-i\omega t}\) with Euler's formula
+
+        \[ e^{-i\omega t} = \cos{(\omega t)} - i\sin{(\omega t)} \]
+
+* Probability Density
+
+\[ P(x,y,z)dV=|\psi|^{2}dV \]
+
+\[ |\psi|^{2} = \psi^{*}\psi \]
+
++ \(\psi^{*}\) is the conjugate form of the wave function
+
+** Particle in 1D
+
+*** Probability Function
+
+\[ P(x)dx = |\psi|^{2}dx \]
+
+\[ P_{ab} = \int^{b}_{a}|\psi|^{2}dx \]
+
+*** Normalized Wave Function
+
+\[ \int^{\infty}_{-\infty}|\psi|^{2}dx = 1 \]
+
+*** Expectation value of x
+
+\[ \langle x \rangle \equiv \int_{-\infty}^{\infty}\psi^{*}x\psi dx \]
+
++ Only operates on wave function _NOT_ \(\psi^{*}\)
+
+** Order of Operations
++ Find the wave function
++ Normalize the wave function
++ Calculate probability between two points in space
+
+* Particle in a 1D Box
++ Boundary conditions
+
++ Check left boundary \(x = 0\)
+
+  \[ \psi(x=0) = A\sin{\left(\frac{2\pi0}{\lambda}\right)} = 0 \]
+
++ Check right boundary \(x = L\)
+
+  \[ \psi(x=L) = A\sin{\left(\frac{2\pi L}{\lambda\right)} = 0\]
+
+  \[ \frac{2\pi L}{\lambda} = n\pi \rightarrow \lambda = \frac{2L}{n} \]
+
+  \[ n = 1,2,3,... \]
+
+** Standing Waves
+
+\[ y = (2A\sin{kx})\cos{\omega t} \]
+
+\[ \lambda_{n} = \frac{2L}{\lambda} \]            \[ n = 1,2,3,... \]
+
+\[ f_{n} = \frac{v}{\lambda_{n}} = n\frac{v}{2L} \]     \[ n = 1,2,3,...\]
+
+** Closing Remarks
+
+\[ \psi(x) = A\sin{\frac{2\pi x}{\lambda}} \]
+
+\[ \psi_{n}(x) = A\sin{\frac{n\pi x}{L}} \]
+
+*** Normalized
+
+\[ \boxed{\psi_{n} = \} \]
+
+* Practice Problems
+
+** Practice Problem 1
+Given the wave function:
+
+        \[ \psi = Ae^{-cx^{2}} \]
+
+*** Write down the complex conjugate
+
+No complex component in our wave function, so our standard form will just be the *real* component, and the same goes for our conjugate function.
+
+\[ \boxed{\psi^{*} = Ae^{-cx^{2}}} \]
+
+*** Calculate the probability density
+
+\[ |\psi|^{2} = \psi^{*}\psi \]
+
+\[ \boxed{|\psi|^{2} = A^{2}e^{-2cx^{2}}} \]
+
+*** Use the normalization equation to determine A (Use integration tables, as necessary)
+
+\[ \int^{\infty}_{-\infty}|\psi|^{2}dx = 1 \]
+
+\[ \int^{\infty}_{-\infty}A^{2}e^{-2cx^{2}}dx = 1 \]
+
+\[ A^{2} \int^{\infty}_{-\infty}e^{-2cx^{2}}dx = 1 \]
+
++ Integral that's important to know
+
+  \[ \int_{0}^{\infty}e^{-ax^{2}}dx = \frac{1}{2}\sqrt{\frac{\pi}{a}} \]
+
+\[ A^{2}\left( \int^{0}_{-\infty}e^{-2cx^{2}}dx + \int_{0}^{\infty}e^{-2cx^{2}}dx \right) = 1 \]
+
+Flipping the signs of x
+
+\[ A^{2}\left( \int^{0}_{\infty}e^{-2c(-x)^{2}}(-dx) + \int_{0}^{\infty}e^{-2cx^{2}}dx \right) = 1 \]
+
+Throw a negative sign in front
+
+\[ A^{2}\left( -\int^{\infty}_{0}e^{-2c(-x)^{2}}(-dx) + \int_{0}^{\infty}e^{-2cx^{2}}dx \right) = 1 \]
+
+So...
+
+\[ 2A^{2}\left( \int^{\infty}_{0}e^{-2cx^{2}}dx \right)=1 \]
+
+\[ 2A^{2}\left( \frac{1}{2}\sqrt{\frac{\pi}{2}} \right) = 1 \]
+
+\[ \boxed{A = \left( \frac{2c}{\pi} \right)^{1/4}} \]
+
+*** Calculate the expectation value for x
+
+\[ \langle x \rangle \equiv \int_{-\infty}^{\infty}\psi^{*}x\psi dx \]
+
+\[ \langle x \rangle = \int^{\infty}_{-\infty}Ae^{-cx^{2}}xAe^{-cx^{2}}dx \]
+
+\[ \langle x \rangle = A^{2} \int^{\infty}_{-\infty} xe^{-2cx^{2}}dx \]
+
+(Solve the same way as before)
+
+\[ \boxed{\langle x \rangle = 0} \]

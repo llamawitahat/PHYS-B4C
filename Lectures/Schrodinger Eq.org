@@ -1,0 +1,104 @@
+#+title: Schrödinger Equation
+#+startup: latexpreview
+
+* Particle in a 1D Box
+
+[[./ProbabilityDensity+ParticleInfiniteBox.org][Quick Review from last time]]
+
+\[ \psi(x) = A\sin{\left( \frac{2\pi x}{\lambda} \right)} \]
+
+\[ \psi_{n}(x) = A\sin{\left(\frac{ n\pi x}{L}\right) \]
+
++ Normalized:
+
+  \[ \boxed{ \psi_{n}(x)= \sqrt{\frac{2}{L}}\sin{\left( \frac{n\pi x}{L} \right)}  } \]
+
+  - This time, the wave function is REAL!
+
+    [[./wave.png]]
+
+    * For first state, you have the best chance of your particle being in the middle
+    * Not the case for \(n = 2\)
+    * Is the case for \(n = 3\)
+    * And so on...
++ What if $n$ were a really large number like 5000?
+  - Our wave effectively appears like a straight line, so we're dealing with something macroscopic
+
+** Momentum of the Particle in the box
+
+\[ p_{n} = \frac{h}{\lambda} = \frac{h}{2L/n} = \frac{nh}{2L} \]
+
++ Only dependent on the length of the box
+
+\[ E_{n} = \frac{1}{2}mv^{2} = \frac{p_{n}^{2}}{2m} \]
+
+\[ \boxed{E_{n} = \left( \frac{h^{2}}{8mL^{2}} \right)n^{2}} \]         \[ n= 1,2,3,... \]
+
++ You're NEVER going to get 0 energy in this case
+
+[[./E-levels.png]]
+
+* Schrödinger Equation
+
+\[ -\frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}} + U\psi = E\psi \]
+
++ Basically just an expression of the law of conservation of energy
+
+** Particle in a Box - Revisited
++ No potential energy, so it boils down to
+
+  \[ \frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}} = E\psi \]
+
+  \[ \frac{d^{2}\psi}{dx^{2}} = -\frac{2mE}{\hbar^{2}}\psi = -k^{2}\psi \]
+
+  \[ k = \frac{\sqrt{2mE}}{\hbar} \]
+
+  \[ \psi(x) = A\sin{kx} + B\cos{kx} \]
+
+*** Boundary Conditions
++ Check left boundary: \(\psi(0) = 0\)
+
+  \[ \psi(0) = 0+B = 0 \]
+
+  \[ \therefore\psi(x) = A\sin{kx} \]
+
++ Check right boundary: \(\psi(L)=0 \)
+
+  \[ \psi(L)=\frac{\sqrt{2mE}}{\hbar}L=n\pi \]
+
+  \[ \therefore kL = n\pi \]
+
++ Well, we're done
+
+  \[ E_{n} = \left( \frac{h^{2}}{8mL^{2}} \right)n^{2}\text{   $\checkmark$ } \]
+
+  \[ \psi_{n} = A\sin{\left( \frac{n\pi x}{L} \right)} \text{  } \checkmark \]
+
+  - Only works for a particle in a 1D box
+
+* Problems
+** Practice Problem 1
+*** Part A
+An electron is trapped in a one-dimensional box of length 0.250 nm. Calculate its speed in the \(n = 2\) state.
+**** Solution
+
+\[ p_{n} = \frac{nh}{2L} = mv \]
+
+\[ \implies v = \frac{nh}{2mL} = 2.91\times 10^{6}\text{ m/s} \]
+
+*** Part B
+A 145 g baseball is trapped between two rigid walls, modeled as a box of length 91.44 m, the length of a football field. Calculate the speed of the baseball in the \(n = 2\) state.
+**** Solution
++ More of the same
+
+  \[ p_{n} = \frac{nh}{2L} = mv \]
+
+  \[ \implies v = \frac{nh}{2mL} = 5.00\times 10^{-35}\text{ m/s} \]
+
+** Practice Problem 2
+An electron is trapped in a one-dimensional box when it transitions from its \(n = 2\) state to its \(n=1\) state. After the transition, a photon with wavelength 638.2 nm is emitted. Calculate the length of the box (in nm).
+*** Solution
+
+\[ E_{\gamma} = E_{2} - E_{1} \]
+
+\[ L = \sqrt{\frac{3h\lambda}{8mc}} \]

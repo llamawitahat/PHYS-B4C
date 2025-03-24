@@ -1,0 +1,301 @@
+#+title: HW Chapter 39
+#+startup: latexpreview inlineimages
+#+latex_header: \usepackage{amsmath}
+
+* Problem 1
+The temperature of an object is 110ºC. What is the peak wavelength (in µm) of the radiation emitted by the object at this temperature?
+
+** Solution
+
+\[ \lambda_{\text{max}} T = 2.898\times 10^{-3} \text{ m $\cdot$ K} \]
+
+\[ \implies \lambda_{\text{max}} = \frac{2.898\times 10^{-3}\text{ m $\cdot$ K}}{374.15\text{ K}} \]
+
+\[ \lambda_{\text{max}} = 7.54\text{ $\mu$m} \]
+
+* Problem 2
+
+** Part A
+What is the surface temperature (in K) of Sirius, which radiates with a peak wavelength of about 292 nm?
+
+*** Solution
+
+\[ \lambda_{\text{max}} T = 2.898\times 10^{-3} \text{ m $\cdot$ K} \]
+
+\[ T = \frac{2.898\times 10^{-3} \text{ m $\cdot$ K}}{292\times 10^{-9}\text{ m}} \]
+
+\[ T = 9925\text{ K} \]
+
+
+** Part B
+What is the surface temperature (in K) of Procyon, which radiates with a peak wavelength of about 444 nm?
+
+*** Solution
+
+\[ \lambda_{\text{max}} T = 2.898\times 10^{-3} \text{ m $\cdot$ K} \]
+
+\[ T = \frac{2.898\times 10^{-3}\text{ m $\cdot$ K}}{444\times 10^{-9}\text{ m}} \]
+
+\[ T = 6527\text{ K} \]
+
+
+* Problem 3
+The average threshold of dark-adapted (scotopic) vision is \(4.00\times 10^{-11} \text{ W/m$^{2}$}\) at a central wavelength of 500 nm. If light with this intensity and wavelength enters the eye and the pupil is open to its maximum diameter of 8.20 mm, how many photons per second enter the eye?
+
+** Solution
+
+\[ \lambda = 500\text{ nm} \]
+
+\[ d = 8.20\text{ mm} \implies r = 4.10\text{ mm} \]
+
+\[ I = 4.00\times 10^{-11}\text{ W/m$^{2}$} \]
+
+\[E = hf = \frac{hc}{\lambda}\]
+
+\[ A = \pi r^{2} \]
+
+\[ P = IA \]
+
+\[ P = J/s \]
+
+\[ E = J \]
+
+\[ P/E = 1/s \]
+
+\[ \frac{\text{photons}}{s} = \frac{I\pi r^{2}}{hc/\lambda} \]
+
+\[ = 5.31\times 10^{3}\text{ photons/s} \]
+
+* Problem 4
+A small sphere of mass $m = 1.13\text{ kg}$ is attached to a string length of $L = 1.15\text{ m}$. The sphere is displaced a horizontal distance of $x = 3.00\text{ cm}$ from the vertical and allowed to swing back and forth. What is the principle quantum number n for this system, assuming it is a simple pendulum?
+
+** Solution
+
+\[ m = 1.13\text{ kg} \]
+
+\[ x = 3.00\text{ cm} \]
+
+\[ L = 1.15\text{ m} \]
+
+\[ E = nhf \]
+
+\[ f = \frac{1}{2\pi}\sqrt{\frac{g}{L}} \]
+
+\[ E = mgy = mg\left(L - \sqrt{L^{2}-x^{2}}\right) \]
+
+\[ n = \frac{mg\left(L - \sqrt{L^{2}-x^{2}}\right)}{\frac{h}{2\pi}\sqrt\frac{g}{L}} \]
+
+\[ n = 1.41\times 10^{31} \]
+
+
+* Problem 5
+An FM radio transmitter has a power output of 140 kW and operates at a frequency of 98.7 MHz. How many photons per second does the transmitter emit?
+
+\[ P = 140\text{ kW} \]
+
+\[ E = hf \]
+
+\[ \text{photons/s} = \frac{P}{hf} \]
+
+\[ \boxed{2.14\times 10^{30}\text{ photons/s}} \]
+
+* Problem 6
+When light from a mercury lamp (\(\lambda = 546.1\text{ nm}\)) is incident on a particular metal surface, the stopping potential is \(0.929\text{ V}\).
+
+** Part A
+What is the work function (in eV) for this metal?
+
+*** Solution
+
+\[ e = -1.602\times 10^{-19}\text{ C} \]
+
+\[ \Delta V_{s} = 0.926\text{ V} \]
+
+\[ K_{\text{max}} = hf - \phi = e\Delta V_{s} \]
+
+\[ hc \approx 1240\text{ eV $\cdot$ nm}  \]
+
+\[ e\Delta V_{s} = \frac{hc}{\lambda} - \phi \]
+
+\[ \phi = \frac{hc}{\lambda} - e\Delta V_{s} \]
+
+\[ \phi = 1.34\text{ eV}  \]
+
+** Part B
+What stopping potential (in V) would be observed when using light from a red lamp (\(\lambda = 675.0\text{ nm}\))?
+
+*** Solution
+
+Similar work to Part A
+
+\[ e\Delta V_{s} = \frac{hc}{\lambda} - \phi \]
+
+\[ \Delta V_{s} = \frac{\frac{hc}{\lambda}-\phi}{e} \]
+
+\[ \Delta V_{s} = 0.497\text{ V} \]
+
+
+* Problem 7
+Light with wavelength \(\lambda = 605\text{ nm}\) is incident on a metallic surface. Electrons are ejected from the surface. The maximum speed of these electrons is \(v = 4.80\times 10^{5}\text{ m/s}\)
+
+** Part A
+What is the work function of the metal (in eV)?
+
+*** Solution
+
+\[ v = 4.80\times 10^{5}\text{ m/s} \]
+
+\[ K_{\text{max}} = e\Delta V_{s} = \frac{1}{2}mv^{2} = 0.655\text{ eV} \]
+
+\[ \phi = \frac{hc}{\lambda} - \frac{1}{2}mv^{2} \]
+
+\[ m_{e} = 9.11\times 10^{-31}\text{ kg} \]
+
+\[ \phi = 2.236\times 10^{-19}\text{ J} = 1.39\text{ eV} \]
+
+** Part B
+What is the cutoff frequency for this metal (in Hz)?
+
+*** Solution
+
+\[ f_{c} = \frac{\phi}{h} \]
+
+\[ f_{c} = 3.36\times 10^{14} \text{ Hz} \]
+
+
+* Problem 8
+A beam of ultraviolet light of wavelength \(\lambda = 215\text{ nm}\) is incident on an isolated, initially uncharged zinc sphere of radius \(r = 5.25\text{ cm}\). The work function for zinc is \(\phi = 4.31\text{ eV\). What charge is induced on the _sphere_ (in C) when the potential difference between the sphere and infinity reaches the stopping potential?
+
+** Solution
+
+\[ \lambda = 215\text{ nm} \]
+
+\[ \phi = 4.31\text{ eV} \]
+
+\[ A = 4\pi r^{2} \]
+
+Need $q$
+
+\[ K_{\text{max}} = E -\phi = \frac{hc}{\lambda} - \phi = 1.46\text{ eV} \]
+
+\[ \Delta V_{s} = \frac{E-\phi}{e} = 1.46\text{ V} \]
+
+\[ \Delta V_{s} = \frac{1}{4\pi \epsilon_{0}}\frac{q}{r} \]
+
+\[ q = 4\pi\epsilon_{0}r\Delta V_{s} \]
+
+\[ q = 8.53\times 10^{-12}\text{ C} \]
+
+* Problem 9
+** Part A
+X-rays are scattered from a target at an angle of 14.4º with respect to the direction of the incident beam. What is the wavelength shift (in m) of the scattered x-rays?
+
+*** Solution
+
+\[ \Delta\lambda = \frac{h}{m_{e}c}(1 - \cos{\theta}) \]
+
+\[ \Delta\lambda = 7.62\times 10^{-14}\text{ m} \]
+
+** Part B
+*What If?* For what scattering angle (in degrees) will the wavelength shift of x-rays be exactly double that found in part (a)?
+
+*** Solution
+Need $\theta$
+
+\[ 1 - \frac{\Delta\lambda}{\lambda_{c}} = \cos{\theta} \]
+
+\[ \theta = \cos^{-1}\left(1 - \frac{\Delta\lambda}{\lambda_{c}} \right) \]
+
+\[ \theta = 20.4\text{\textdegree} \]
+
+
+* Problem 10
+** Part A
+A moving electron has a kinetic energy of 3.55 eV. What is the wavelength of this electron (in m)?
+
+*** Solution
+
+\[ K = 3.55\text{ eV} = \frac{1}{2}mv^{2} = 5.68\times 10^{-19}\text{ J} \]
+
+\[ v = \sqrt{\frac{2K}{m}} = 1.117\times 10^{6}\text{ m/s} \]
+
+\[ m_{e} = 9.11\times 10^{-31}\text{ kg} \]
+
+\[ p = m_{e}v \]
+
+\[ \lambda = \frac{h}{p} = \frac{h}{m_{e}v} = 6.51\times 10^{-10}\text{ m} \]
+
+
+** Part B
+A photon with an energy of 3.55 eV has what corresponding wavelength (in m)?
+
+*** Solution
+
+\[ f = \frac{E}{h} \]
+
+\[ \implies \lambda = \frac{hc}{E} \]
+
+\[ \lambda = 349.5\text{ nm} = 3.50\times10^{-7}\text{ m} \]
+
+* Problem 11
+The resolving power of a microscope depends on the wavelength used. If you wanted to "see" an atom, a wavelength of approximately $1.00\times10^{-11}\text{ m}$ would be required
+
+** Part A
+If electrons are used (in an electron microscope), what minimum kinetic energy is required for the electrons? (Hint: Use relativistic mechanics to solve this part.)
+
+*** Solution
+\[ \lambda = 1.00\times10^{-11}\text{ m} \]
+
+\[ K = (1 - \gamma)mc^{2} \]
+
+\[ \gamma = \frac{1}{1-\frac{v^{2}}{c^{2}}} \]
+
+\[ m_{e} = 9.11\times10^{-31}\text{ kg} \]
+
+\[ \lambda = \frac{h}{p} \]
+
+\[ p = \frac{h}{\lambda} = 6.626\times10^{-23} \]
+
+\[ \frac{p}{m} = v = 7.27\times10^{7}\text{ m/s} \]
+
+\[ K = 2.41\times 10^{-15}\text{ J} = 15.04\text{ keV} \]
+
+** Part B
+If photons are used, what minimum photon energy is needed to obtain the required resolution
+
+\[ p = \frac{h}{\lambda} = 6.626\times10^{-23} \text{ kgm/s} \]
+
+\[ p = \frac{E}{c} \]
+
+\[ E = pc = 1.99\times10^{-14}\text{ J} = 124.2\text{ keV} \]
+
+* Problem 12
+Imagine a universe in which \(h = 2\pi\text{ J $\cdot$ s}\). A block with mass \(m = 2.50\text{ kg}\) is sliging on a frozen pond which is \(L = 2.00\text{ m}\) wide.
+
+** Part A
+What is the minimum uncertainty (in m/s) in the component of the blocks velocity parallel to the pond's width?
+
+\[ L = 2.00\text{ m} \]
+
+\[ m = 2.50\text{ kg} \]
+
+\[ \Delta x\Delta p \ge \frac{h}{4\pi} \]
+
+\[ \Delta x = \frac{L}{2} = 1.00\text{ m}\]
+
+\[ p = mv \]
+
+\[ \Delta p \ge \frac{h}{4\pi\Delta x} \]
+
+\[ \Delta p \ge 0.5\text{ kgm/s} \]
+
+\[ \Delta v = \frac{h}{4\pi m\Delta x} \]
+
+\[ \Delta v \ge 0.1 \text{ m/s} \]
+
+** Part B
+Assuming this uncertainty in speed prevails for \(t = 5.50\text{ s}\), determine the uncertainty in the block's position (in m) after this time interval
+
+\[ d = vt \]
+
+\[ 2.00\text{ m} + 0.55\text{ m} = 2.55\text{ m} \]
