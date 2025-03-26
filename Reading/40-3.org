@@ -1,5 +1,5 @@
 #+title: 40.3: The Schrödinger Equation
-#+startup: latexpreview inlineimages
+#+startup: latexpreview
 
 [[../Lectures/PDFs/Chapter 33.pdf][Chapter 33.3]]
 

@@ -1,0 +1,103 @@
+#+title: Quantum Model Of Hydrogen
+#+startup: latexpreview
+
+* Recap* Recap* Recap* Recap* Recap* Recap* Recap* Recap
++ TODO Link to Bohr's Hydrogen Model when notes for that section are completed
+
+\begin{align*}
+& r_{n} = \frac{n^{2}\hbar^{2}}{m_{e}r^{2}e^{2}}
+\end{align*}
+
+* Schödinger Equation for the Hydrogen Atom
+:PROPERTIES:
+:ID:       78fbd018-73d6-45ef-b1c6-5626b15a5994
+:END:
+
+\begin{align*}
+& -\frac{\hbar^{2}}{2m}\frac{d^{2}\psi}{dx^{2}} + U\psi = E\psi \\
+\\
+& -\frac{\hbar^{2}}{2m}\left( \frac{\partial^{2}\psi}{\partial x^{2}}+\frac{\partial^{2}\psi}{\partial y^{2}}+\frac{\partial^{2}\psi}{\partial z^{2}} \right) -\frac{ke^{2}}{r}\psi = E\psi
+\end{align*}
+
++ We need to convert our (x,y,z) coords into spherical polar coordinates
+
+  [[./polar.png]]
+
+\begin{align*}
+       & \psi(r,\theta,\psi) = R(r)f(\theta)g(\phi)
+\end{align*}
+
+Bunch of insane math, but it actually narrows down pretty neatly
+
+\begin{align*}
+E_{n} = -\frac{ke^{2}}{2a_{0}}\left( \frac{1}{n^{2}} \right) = -\frac{13.606\text{ eV}}{n^{2}}
+\end{align*}
+
+Principal: \(n\)
+
+(Orbital) angular momentum: \(\ell\)
+
+(Orbital) magnetic: \(m_{\ell}\)
+
+** Quantum Numbers
+
+\(n = 1,2,3,\dots\)             All \(n\) allowed
+
+\(\ell = 0,1,2,\dots,n-1\)        \(n\) allowed
+
+\(m_{\ell} = -\ell \text{ to } +\ell\)           \(2\ell + 1\) allowed
+
+*** Abbreviations
+
+\begin{array}{lr}
+s: & \ell = 0 \\
+p: & \ell = 1 \\
+d: & \ell = 2 \\
+f: & \ell = 3
+\end{array}
+
+**** Another one to make things quicker: # letter
+
+\begin{array}{lr}
+1s: \\
+n = 1, & \ell = 0 \\
+3p: \\
+n = 3, & \ell = 1
+\end{array}
+
+* Hydrogen Wave Function
+
+** 1s
+
+\begin{align*}
+\psi_{1s}(r) = \frac{1}{\sqrt{\pi a^{3}_{0}}}e^{-r/a_{0}}
+\end{align*}
+
+[[./electronorbit.png]]
+
+** 2s
+
+\begin{align*}
+\psi_{2s} = \frac{1}{\sqrt{32\pi a^{3}_{0}}}\left( 2 - \frac{r}{a_{0}}\right)e^{-r/2a_{0}}
+\end{align*}
+
+[[./2s.png]]
+
+** 2p
+
+\begin{align*}
+\psi_{2p} = \frac{1}{\sqrt{64\pi a^{3}_{0}}}\left( \frac{r}{a_{0}} \right) e^{-r/2a_{0}} \sin{\theta}e^{\pm i\phi}
+\end{align*}
+
+** A few things
+
++ \(m_{\ell}\) changes the orientation of the probability
++ changes the behavior of the atom
+
+* Practice Problems
+** Problem 1 (Fill in from lecture notes later)
+*** Part A
+
+*** Part B
+
+** Problem 2
